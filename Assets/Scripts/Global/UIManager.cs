@@ -63,7 +63,7 @@ public class UIManager : MonoBehaviour {
     {
         foreach(GameObject g in pauseObjects)
         {
-            Debug.Log("Game is Paused");
+           // Debug.Log("Game is Paused");
             g.SetActive(true);
         }
     }
@@ -72,7 +72,7 @@ public class UIManager : MonoBehaviour {
     {
         foreach(GameObject g in pauseObjects)
         {
-            Debug.Log("Game is not Paused");
+           // Debug.Log("Game is not Paused");
             g.SetActive(false);
         }
     }

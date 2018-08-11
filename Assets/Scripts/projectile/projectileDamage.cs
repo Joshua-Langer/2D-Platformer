@@ -6,7 +6,7 @@ public class projectileDamage : MonoBehaviour {
 
     //public vars
     public float damage;
-    public GameObject explosionEffect; //TODO: Build This
+    public GameObject explosionEffect;
 
     //private vars
     projectileController PC;
@@ -38,7 +38,9 @@ public class projectileDamage : MonoBehaviour {
             {
                 hurtEnemy = other.gameObject.GetComponent<enemyHealth>();
                 hurtEnemy.takeDamage(damage);
+
             }
+            
         }
     }
 
@@ -53,8 +55,11 @@ public class projectileDamage : MonoBehaviour {
             {
                 hurtEnemy = other.gameObject.GetComponent<enemyHealth>();
                 hurtEnemy.takeDamage(damage);
+
             }
         }
     }
+
+
 
 }

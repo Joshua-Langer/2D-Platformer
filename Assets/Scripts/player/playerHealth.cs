@@ -14,6 +14,8 @@ public class playerHealth : MonoBehaviour {
     float currentHealth;
     playerController PlayerController; //maybe redundant
     bool isInvulnerable;
+    playerAudio playerSounds;
+
     //Scene nextScene;
    
 
@@ -32,7 +34,9 @@ public class playerHealth : MonoBehaviour {
         healthHUD.maxValue = playerMaxHealth;
         healthHUD.value = playerMaxHealth;
         isInvulnerable = false;
-	}
+        playerSounds = GetComponent<playerAudio>();
+
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -83,12 +87,13 @@ public class playerHealth : MonoBehaviour {
 
     public void killPlayer()
     {
+        playerSounds.DeathSound();
         Destroy(gameObject);
-
         //Call animator for Game Over
         Animator gameOverAnim = gameOverText.GetComponent<Animator>();
         gameOverAnim.SetTrigger("gameOver");
         restartGame.Restart();
+        
     }
 
     //TODO: Move This

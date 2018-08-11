@@ -9,7 +9,6 @@ public class projectileController : MonoBehaviour {
 
     //private vars
     Rigidbody2D rb;
-
     
     
     // Used during instatiante of object

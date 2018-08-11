@@ -20,6 +20,7 @@ public class playerController : MonoBehaviour {
     Animator anim;
     bool facingRight;
     projectileDamage PD;
+    playerAudio playerSounds;
 
     //fire vars
     public Transform origin;
@@ -34,6 +35,7 @@ public class playerController : MonoBehaviour {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         facingRight = true;
+        playerSounds = GetComponent<playerAudio>();
 	}
 	
 	// Always called a specific time
@@ -44,6 +46,7 @@ public class playerController : MonoBehaviour {
             isGrounded = false;
             anim.SetBool("isGrounded", isGrounded);
             rb.AddForce(new Vector2(0, jumpHeight));
+            playerSounds.JumpSound();
         }
 
         //player shoot
@@ -51,6 +54,7 @@ public class playerController : MonoBehaviour {
         {
             throwFireBall();
         }
+        Debug.Log(transform.position.x);
     }
 
 

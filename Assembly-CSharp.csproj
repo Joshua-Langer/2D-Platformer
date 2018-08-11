@@ -58,12 +58,14 @@
      <Compile Include="Assets\Scripts\Global\damagePowerup.cs" />
      <Compile Include="Assets\Scripts\Global\ExitLevel.cs" />
      <Compile Include="Assets\Scripts\Global\fireCleanup.cs" />
+     <Compile Include="Assets\Scripts\Global\GameMusic.cs" />
      <Compile Include="Assets\Scripts\Global\GarbageRemoval.cs" />
      <Compile Include="Assets\Scripts\Global\healthPowerup.cs" />
      <Compile Include="Assets\Scripts\Global\invulnerableGem.cs" />
      <Compile Include="Assets\Scripts\Global\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Global\RestartGame.cs" />
      <Compile Include="Assets\Scripts\Global\UIManager.cs" />
+     <Compile Include="Assets\Scripts\player\playerAudio.cs" />
      <Compile Include="Assets\Scripts\player\playerController.cs" />
      <Compile Include="Assets\Scripts\player\playerHealth.cs" />
      <Compile Include="Assets\Scripts\projectile\projectileController.cs" />
