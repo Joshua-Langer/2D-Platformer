@@ -2,17 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class playerHealth : MonoBehaviour {
 
     //public vars
     public float playerMaxHealth;
+    public RestartGame restartGame;
 
     //private vars
     float currentHealth;
     playerController PlayerController; //maybe redundant
     bool isInvulnerable;
-    public RestartGame restartGame;
+    //Scene nextScene;
+   
 
     //HUD Vars
     public Slider healthHUD;
@@ -92,8 +95,8 @@ public class playerHealth : MonoBehaviour {
     public void WinGame()
     {
         Destroy(gameObject);
-        Animator winAnim = winText.GetComponent<Animator>();
-        winAnim.SetTrigger("gameOver");
-        restartGame.Restart();
+        //Animator winAnim = winText.GetComponent<Animator>();
+        //winAnim.SetTrigger("gameOver");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

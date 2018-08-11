@@ -12,6 +12,7 @@ public class RestartGame : MonoBehaviour {
     //private vars
     bool restartNow = false;
     float restartTimeActual;
+    Scene activeScene;
 
 	
 	// Update is called once per frame
@@ -20,12 +21,15 @@ public class RestartGame : MonoBehaviour {
 		if(restartNow && restartTimeActual <= Time.time)
         {
             Debug.Log("Game will restart in " + restartTimeActual);
-            SceneManager.LoadScene(0);
+            activeScene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(activeScene.name);
+            
         }
         else if(restartNow && Input.GetKey(KeyCode.R))
         {
-            restartTimeActual = 0;
-            SceneManager.LoadScene(0);
+            activeScene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(activeScene.name);
+            Debug.Log("Restart Pressed");
         }
     }
 
