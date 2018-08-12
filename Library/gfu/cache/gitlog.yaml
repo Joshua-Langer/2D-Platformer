@@ -12,9 +12,160 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-12T10:04:19.078-05:00
-  initializedAtString: 2018-08-12T10:04:07.808-05:00
+  lastUpdatedAtString: 2018-08-12T15:20:39.439-05:00
+  initializedAtString: 2018-08-12T15:20:39.439-05:00
   log:
+  - commitID: 6f641d01ae1ba72cdc1bf3394c94eb8518f87e0f
+    mergeA: 
+    mergeB: 
+    authorName: behistun
+    authorEmail: jrl15b@acu.edu
+    commitEmail: jrl15b@acu.edu
+    commitName: behistun
+    summary: Loop Back Main Menu
+    description: "Loop Back Main Menu\r\n\r\nAdded Code to loop back to main menu
+      after boss level"
+    timeString: 2018-08-12T10:31:10.000-05:00
+    commitTimeString: 2018-08-12T10:31:10.000-05:00
+    changes:
+    - path: .vs\2D-Platformer\v15\.suo
+      fullPath: D:\Project\2D-Platformer\.vs\2D-Platformer\v15\.suo
+      projectPath: .vs\2D-Platformer\v15\.suo
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\player\playerHealth.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\player\playerHealth.cs
+      projectPath: Assets\Scripts\player\playerHealth.cs
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 71c0901b357e1b40baabf4b027e78498708435b5
+    mergeA: 
+    mergeB: 
+    authorName: behistun
+    authorEmail: jrl15b@acu.edu
+    commitEmail: jrl15b@acu.edu
+    commitName: behistun
+    summary: Level 4 Missed push
+    description: "Level 4 Missed push\r\n\r\nSome items did not push. Re-push"
+    timeString: 2018-08-12T10:27:23.000-05:00
+    commitTimeString: 2018-08-12T10:27:23.000-05:00
+    changes:
+    - path: Assets\Prefabs\Enemies\MouseEnemy .prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Enemies\MouseEnemy .prefab
+      projectPath: Assets\Prefabs\Enemies\MouseEnemy .prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Enemies\SawBossW1.prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Enemies\SawBossW1.prefab
+      projectPath: Assets\Prefabs\Enemies\SawBossW1.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Enemies\SawBossW1.prefab.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Enemies\SawBossW1.prefab.meta
+      projectPath: Assets\Prefabs\Enemies\SawBossW1.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Level4.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level4.unity
+      projectPath: Assets\Scenes\Level4.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Level4.unity.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level4.unity.meta
+      projectPath: Assets\Scenes\Level4.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: b4553f0f3374f351659edbf4571bb59a3e187183
+    mergeA: 
+    mergeB: 
+    authorName: behistun
+    authorEmail: jrl15b@acu.edu
+    commitEmail: jrl15b@acu.edu
+    commitName: behistun
+    summary: Level 4 Add
+    description: "Level 4 Add\r\n\r\nCompleted Level 4, added Boss Creature."
+    timeString: 2018-08-12T10:26:42.000-05:00
+    commitTimeString: 2018-08-12T10:26:42.000-05:00
+    changes:
+    - path: Library\CrashedAssetImports.txt
+      fullPath: D:\Project\2D-Platformer\Library\CrashedAssetImports.txt
+      projectPath: Library\CrashedAssetImports.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: D:\Project\2D-Platformer\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Project\2D-Platformer\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: D:\Project\2D-Platformer\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: D:\Project\2D-Platformer\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 152f03c9560e4d6ad40a7887de4f12a1f185d7ea
     mergeA: 
     mergeB: 

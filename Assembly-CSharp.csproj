@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Global\damagePowerup.cs" />
      <Compile Include="Assets\Scripts\Global\ExitLevel.cs" />
      <Compile Include="Assets\Scripts\Global\fireCleanup.cs" />
+     <Compile Include="Assets\Scripts\Global\GameManager.cs" />
      <Compile Include="Assets\Scripts\Global\GameMusic.cs" />
      <Compile Include="Assets\Scripts\Global\GarbageRemoval.cs" />
      <Compile Include="Assets\Scripts\Global\healthPowerup.cs" />

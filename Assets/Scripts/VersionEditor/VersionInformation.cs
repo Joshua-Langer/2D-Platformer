@@ -1,4 +1,4 @@
-/*Auto-Generated File from VersionEditor 2018.08.12 10:00:01 */
+/*Auto-Generated File from VersionEditor 2018.08.12 16:22:42 */
 
 namespace Assets.Scripts.VersionEditor {
 	public static class VersionInformation {
@@ -7,7 +7,7 @@ namespace Assets.Scripts.VersionEditor {
 		}
 		public const int Major = 0;
 		public const int Minor = 2;
-		public const int Revision = 4;
+		public const int Revision = 6;
 		public const string Build = @"0";
 
 		public const string Title = "2d Platformer";

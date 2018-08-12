@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour {
 
@@ -16,6 +17,7 @@ public class UIManager : MonoBehaviour {
         pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPause");
 
         hidePaused();
+
 	}
 	
 	// Update is called once per frame
@@ -31,7 +33,7 @@ public class UIManager : MonoBehaviour {
             }
             else if (Time.timeScale == 0)
             {
-                Debug.Log("high");
+                //Debug.Log("high");
                 Time.timeScale = 1;
                 hidePaused();
             }
@@ -42,7 +44,7 @@ public class UIManager : MonoBehaviour {
     {
         activeScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(activeScene.name);
-        Debug.Log("Restart Pressed");
+       // Debug.Log("Restart Pressed");
     }
 
     public void PauseControl()
@@ -80,13 +82,13 @@ public class UIManager : MonoBehaviour {
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
-        Debug.Log("Main Menu Loaded");
+       // Debug.Log("Main Menu Loaded");
     }
 
     public void Exit()
     {
         Application.Quit();
-        Debug.Log("Game is exiting");
+        //Debug.Log("Game is exiting");
     }
 
 }

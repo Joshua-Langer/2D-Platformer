@@ -20,7 +20,7 @@ public class RestartGame : MonoBehaviour {
     {
 		if(restartNow && restartTimeActual <= Time.time)
         {
-            Debug.Log("Game will restart in " + restartTimeActual);
+            //Debug.Log("Game will restart in " + restartTimeActual);
             activeScene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(activeScene.name);
             
@@ -29,7 +29,7 @@ public class RestartGame : MonoBehaviour {
         {
             activeScene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(activeScene.name);
-            Debug.Log("Restart Pressed");
+           // Debug.Log("Restart Pressed");
         }
     }
 

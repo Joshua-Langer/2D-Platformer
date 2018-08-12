@@ -25,7 +25,8 @@ public class GarbageRemoval : MonoBehaviour {
         if (other.tag == "Player")
         {
             PH = other.GetComponent<playerHealth>();
-            PH.killPlayer();
+            PH.ZeroHealth();
+            //PH.killPlayer();
         }
         else
             Destroy(other.gameObject);

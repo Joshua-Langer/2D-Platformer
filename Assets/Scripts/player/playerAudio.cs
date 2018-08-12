@@ -9,25 +9,30 @@ public class playerAudio : MonoBehaviour {
     AudioClip death;
     [SerializeField]
     AudioClip jump;
-    AudioSource audioSource;
+
+    AudioSource sounds;
+
   
    
 
-	// Use this for initialization
-	void Start ()
+
+
+    public IEnumerator JumpAudio()
     {
-        audioSource = GetComponent<AudioSource>();
-	}
-	
-	public void JumpSound()
-    {
-        audioSource.PlayOneShot(jump, 0.7f);
-        //Debug.Log("Jump");
+        Debug.Log("Called JumpAudio from Player Controller");
+        sounds = GetComponent<AudioSource>();
+        yield return new WaitForSeconds(0);
+        sounds.clip = jump;
+        sounds.Play();
     }
 
-    public void DeathSound()
+    public IEnumerator DeathAudio()
     {
-        audioSource.PlayOneShot(death, 0.7f);
-        Debug.Log("Playing death sounds");
+        Debug.Log("Called DeathAudio from PlayerHealth");
+        sounds = GetComponent<AudioSource>();
+        yield return new WaitForSeconds(0.5f);
+        sounds.clip = death;
+        sounds.volume = 1;
+        sounds.Play();
     }
 }

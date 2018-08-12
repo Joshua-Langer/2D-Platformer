@@ -11,16 +11,11 @@ namespace Assets.Scripts.VersionEditor {
         [SerializeField]
         Text versionText;
 
-
-
-
-
         //Main Menu scene control system
 
         void Start()
         {
             VersionText();
-
         }
 
 
@@ -34,6 +29,12 @@ namespace Assets.Scripts.VersionEditor {
         {
             Application.Quit();
             Debug.Log("Quit the Game");
+        }
+
+        public void NewGameExtra()
+        {
+            SceneManager.LoadScene(13);
+            Debug.Log("For NewGame +");
         }
 
         void VersionText()

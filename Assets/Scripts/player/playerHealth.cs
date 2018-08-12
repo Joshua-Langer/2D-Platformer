@@ -9,15 +9,14 @@ public class playerHealth : MonoBehaviour {
     //public vars
     public float playerMaxHealth;
     public RestartGame restartGame;
+    //public int playerLives;
+    public float currentHealth;
 
     //private vars
-    float currentHealth;
-    playerController PlayerController; //maybe redundant
+
     bool isInvulnerable;
     playerAudio playerSounds;
-
-    //Scene nextScene;
-   
+    GameManager GM;
 
     //HUD Vars
     public Slider healthHUD;
@@ -30,20 +29,15 @@ public class playerHealth : MonoBehaviour {
 	void Start ()
     {
         currentHealth = playerMaxHealth;
-        PlayerController = GetComponent<playerController>(); //still maybe redundant
         healthHUD.maxValue = playerMaxHealth;
         healthHUD.value = playerMaxHealth;
         isInvulnerable = false;
         playerSounds = GetComponent<playerAudio>();
+        GM = new GameManager();
+        //playerLives = 3;
 
     }
 	
-	// Update is called once per frame
-	void Update ()
-    {
-		
-	}
-
     public void takeDamage(float damage)
     {
         if (!isInvulnerable)
@@ -56,6 +50,7 @@ public class playerHealth : MonoBehaviour {
 
             if (currentHealth <= 0)
             {
+                playerSounds.StartCoroutine("DeathAudio");
                 killPlayer();
             }
         }
@@ -80,6 +75,7 @@ public class playerHealth : MonoBehaviour {
         CancelInvoke("takeDamage");
         Invoke("SetDamage", time);
     }
+
     public void SetDamage()
     {
         isInvulnerable = false;
@@ -87,25 +83,19 @@ public class playerHealth : MonoBehaviour {
 
     public void killPlayer()
     {
-        playerSounds.DeathSound();
-        Destroy(gameObject);
-        //Call animator for Game Over
-        Animator gameOverAnim = gameOverText.GetComponent<Animator>();
-        gameOverAnim.SetTrigger("gameOver");
-        restartGame.Restart();
-        
+       //Delete this function.
     }
 
-    //TODO: Move This
-    public void WinGame()
+    //Clear the health to 0 if falls through Garbage Removal
+    public void ZeroHealth()
     {
-        Destroy(gameObject);
-        //Animator winAnim = winText.GetComponent<Animator>();
-        //winAnim.SetTrigger("gameOver");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        if(SceneManager.GetActiveScene().buildIndex == 4)
-        {
-            SceneManager.LoadScene(0);
-        }
+        currentHealth = 0;
+       // Debug.Log(currentHealth);
+    }
+
+    //Attached Call to GM
+    public void Exit()
+    {
+        GM.NextLevel();
     }
 }

@@ -46,7 +46,7 @@ public class playerController : MonoBehaviour {
             isGrounded = false;
             anim.SetBool("isGrounded", isGrounded);
             rb.AddForce(new Vector2(0, jumpHeight));
-            playerSounds.JumpSound();
+            playerSounds.StartCoroutine("JumpAudio");
         }
 
         //player shoot
@@ -54,7 +54,7 @@ public class playerController : MonoBehaviour {
         {
             throwFireBall();
         }
-        Debug.Log(transform.position.x);
+        //Debug.Log(transform.position.x);
     }
 
 
@@ -109,11 +109,4 @@ public class playerController : MonoBehaviour {
             }
         }
     }
-    /*
-    public void DamageInc(float inc)
-    {
-        //increase weapon damage
-        PD = GetComponent<projectileDamage>();
-        PD.damage += inc;
-    }*/
 }
