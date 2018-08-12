@@ -320,6 +320,54 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>D:/Engines/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="MaKeSoftware.ClassInjector">
+ <HintPath>D:/Project/2D-Platformer/Assets/VersionEditor/Editor/MaKeSoftware.ClassInjector.dll</HintPath>
+ </Reference>
+ <Reference Include="MaKeSoftware.ProjectPrefsManager">
+ <HintPath>D:/Project/2D-Platformer/Assets/VersionEditor/Editor/MaKeSoftware.ProjectPrefsManager.dll</HintPath>
+ </Reference>
+ <Reference Include="MaKeSoftware.VersionEditor">
+ <HintPath>D:/Project/2D-Platformer/Assets/VersionEditor/Editor/MaKeSoftware.VersionEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="MaKeSoftware.VersionEditor.Unity">
+ <HintPath>D:/Project/2D-Platformer/Assets/VersionEditor/Editor/MaKeSoftware.VersionEditor.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="OPS.Mono.Cecil">
+ <HintPath>D:/Project/2D-Platformer/Assets/OPS/Editor/Plugins/Mono.Cecil/OPS.Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="OPS.Mono.Cecil.Rocks">
+ <HintPath>D:/Project/2D-Platformer/Assets/OPS/Editor/Plugins/Mono.Cecil/OPS.Mono.Cecil.Rocks.dll</HintPath>
+ </Reference>
+ <Reference Include="ObfuscatorFree">
+ <HintPath>D:/Project/2D-Platformer/Assets/OPS/Obfuscator.Free/Editor/Plugins/ObfuscatorFree.dll</HintPath>
+ </Reference>
+ <Reference Include="AsyncBridge.Net35">
+ <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Api">
+ <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Logging">
+ <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Unity">
+ <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Posix">
+ <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
+ </Reference>
+ <Reference Include="ReadOnlyCollectionsInterfaces">
+ <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
+ </Reference>
+ <Reference Include="sfw.net">
+ <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/Ryan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -337,54 +385,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/Ryan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="MaKeSoftware.ClassInjector">
- <HintPath>D:/Project/2D-Platformer/Assets/VersionEditor/Editor/MaKeSoftware.ClassInjector.dll</HintPath>
- </Reference>
- <Reference Include="MaKeSoftware.VersionEditor.Unity">
- <HintPath>D:/Project/2D-Platformer/Assets/VersionEditor/Editor/MaKeSoftware.VersionEditor.Unity.dll</HintPath>
- </Reference>
- <Reference Include="MaKeSoftware.ProjectPrefsManager">
- <HintPath>D:/Project/2D-Platformer/Assets/VersionEditor/Editor/MaKeSoftware.ProjectPrefsManager.dll</HintPath>
- </Reference>
- <Reference Include="MaKeSoftware.VersionEditor">
- <HintPath>D:/Project/2D-Platformer/Assets/VersionEditor/Editor/MaKeSoftware.VersionEditor.dll</HintPath>
- </Reference>
- <Reference Include="ObfuscatorFree">
- <HintPath>D:/Project/2D-Platformer/Assets/OPS/Obfuscator.Free/Editor/Plugins/ObfuscatorFree.dll</HintPath>
- </Reference>
- <Reference Include="OPS.Mono.Cecil">
- <HintPath>D:/Project/2D-Platformer/Assets/OPS/Editor/Plugins/Mono.Cecil/OPS.Mono.Cecil.dll</HintPath>
- </Reference>
- <Reference Include="OPS.Mono.Cecil.Rocks">
- <HintPath>D:/Project/2D-Platformer/Assets/OPS/Editor/Plugins/Mono.Cecil/OPS.Mono.Cecil.Rocks.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Logging">
- <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
- </Reference>
- <Reference Include="ReadOnlyCollectionsInterfaces">
- <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Unity">
- <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading">
- <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Api">
- <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
- </Reference>
- <Reference Include="AsyncBridge.Net35">
- <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Posix">
- <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
- </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="sfw.net">
- <HintPath>D:/Project/2D-Platformer/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>D:/Engines/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
