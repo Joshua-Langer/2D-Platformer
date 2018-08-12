@@ -103,5 +103,9 @@ public class playerHealth : MonoBehaviour {
         //Animator winAnim = winText.GetComponent<Animator>();
         //winAnim.SetTrigger("gameOver");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if(SceneManager.GetActiveScene().buildIndex == 4)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }
