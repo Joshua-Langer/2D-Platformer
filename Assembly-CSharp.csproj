@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateClassAttribute.cs" />
+     <Compile Include="Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateMethodBodyAttribute.cs" />
+     <Compile Include="Assets\OPS\Obfuscator.Free\Attribute\DoNotRenameAttribute.cs" />
      <Compile Include="Assets\Scripts\enemy\enemyDamage.cs" />
      <Compile Include="Assets\Scripts\enemy\enemyHealth.cs" />
      <Compile Include="Assets\Scripts\enemy\enemyMovementController.cs" />
@@ -70,6 +73,11 @@
      <Compile Include="Assets\Scripts\player\playerHealth.cs" />
      <Compile Include="Assets\Scripts\projectile\projectileController.cs" />
      <Compile Include="Assets\Scripts\projectile\projectileDamage.cs" />
+     <Compile Include="Assets\Scripts\VersionEditor\VersionInformation.cs" />
+     <None Include="Assets\OPS\Obfuscator.Free\Obfuscator_Readme.txt" />
+     <None Include="Assets\VersionEditor\Readme.txt" />
+     <None Include="Assets\OPS\Obfuscator.Free\Version_History.txt" />
+     <None Include="Assets\OPS\Obfuscator.Free\Obfuscator_Settings.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>D:/Project/2D-Platformer/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

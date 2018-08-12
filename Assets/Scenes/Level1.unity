@@ -1458,6 +1458,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4352275049975766, guid: 249eb7fc4568cef418faeadbd18f8a79, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4352275049975766, guid: 249eb7fc4568cef418faeadbd18f8a79, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 249eb7fc4568cef418faeadbd18f8a79, type: 2}
   m_IsPrefabParent: 0
@@ -2884,6 +2892,14 @@ Prefab:
       propertyPath: m_Name
       value: GrassLand LongPlatform (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4944082722513950, guid: 499f031d0a6c4854db5a77c1bde0dc2a, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4944082722513950, guid: 499f031d0a6c4854db5a77c1bde0dc2a, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.01
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 499f031d0a6c4854db5a77c1bde0dc2a, type: 2}
   m_IsPrefabParent: 0
@@ -2994,6 +3010,14 @@ Prefab:
         type: 2}
       propertyPath: m_Size.y
       value: 0.68081355
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241961371872462, guid: 593c7979585ce404287a1514940cd85c, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241961371872462, guid: 593c7979585ce404287a1514940cd85c, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 593c7979585ce404287a1514940cd85c, type: 2}
