@@ -12,9 +12,2962 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-12T10:01:54.175-05:00
-  initializedAtString: 2018-08-12T09:18:52.682-05:00
+  lastUpdatedAtString: 2018-08-12T10:04:19.078-05:00
+  initializedAtString: 2018-08-12T10:04:07.808-05:00
   log:
+  - commitID: 152f03c9560e4d6ad40a7887de4f12a1f185d7ea
+    mergeA: 
+    mergeB: 
+    authorName: behistun
+    authorEmail: jrl15b@acu.edu
+    commitEmail: jrl15b@acu.edu
+    commitName: behistun
+    summary: No Changes
+    description: No Changes
+    timeString: 2018-08-12T10:04:06.000-05:00
+    commitTimeString: 2018-08-12T10:04:06.000-05:00
+    changes:
+    - path: Assembly-CSharp-Editor.csproj
+      fullPath: D:\Project\2D-Platformer\Assembly-CSharp-Editor.csproj
+      projectPath: Assembly-CSharp-Editor.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\EditorInstance.json
+      fullPath: D:\Project\2D-Platformer\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: c1e8e4434567d23c318834d0ba8803e132d78c5e
+    mergeA: 
+    mergeB: 
+    authorName: behistun
+    authorEmail: jrl15b@acu.edu
+    commitEmail: jrl15b@acu.edu
+    commitName: behistun
+    summary: Level 3 Add
+    description: "Level 3 Add\r\n\r\nAdded all Level 3 Components"
+    timeString: 2018-08-12T10:02:47.000-05:00
+    commitTimeString: 2018-08-12T10:02:47.000-05:00
+    changes:
+    - path: .vs\2D-Platformer\v15\.suo
+      fullPath: D:\Project\2D-Platformer\.vs\2D-Platformer\v15\.suo
+      projectPath: .vs\2D-Platformer\v15\.suo
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: 2D-Platformer.sln
+      fullPath: D:\Project\2D-Platformer\2D-Platformer.sln
+      projectPath: 2D-Platformer.sln
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp-Editor.csproj
+      fullPath: D:\Project\2D-Platformer\Assembly-CSharp-Editor.csproj
+      projectPath: Assembly-CSharp-Editor.csproj
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: D:\Project\2D-Platformer\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\AssetBundleBrowser.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser.meta
+      projectPath: Assets\AssetBundleBrowser.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\LICENSE
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\LICENSE
+      projectPath: Assets\AssetBundleBrowser\LICENSE
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\LICENSE.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\LICENSE.meta
+      projectPath: Assets\AssetBundleBrowser\LICENSE.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\MANUAL.md
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\MANUAL.md
+      projectPath: Assets\AssetBundleBrowser\MANUAL.md
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\MANUAL.md.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\MANUAL.md.meta
+      projectPath: Assets\AssetBundleBrowser\MANUAL.md.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\README.md
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\README.md
+      projectPath: Assets\AssetBundleBrowser\README.md
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\README.md.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\README.md.meta
+      projectPath: Assets\AssetBundleBrowser\README.md.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBrowserMain.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBrowserMain.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBrowserMain.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBrowserMain.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBrowserMain.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBrowserMain.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBuildTab.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBuildTab.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBuildTab.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBuildTab.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBuildTab.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleBuildTab.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSource.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSource.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSource.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSource.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSource.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSource.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSourceProvider.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSourceProvider.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSourceProvider.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSourceProvider.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSourceProvider.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\ABDataSourceProvider.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\AssetDatabaseABDataSource.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\AssetDatabaseABDataSource.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\AssetDatabaseABDataSource.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\AssetDatabaseABDataSource.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\AssetDatabaseABDataSource.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleDataSource\AssetDatabaseABDataSource.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleManageTab.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleManageTab.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleManageTab.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleManageTab.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleManageTab.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleManageTab.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModel.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModel.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModel.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModel.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModel.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModel.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelAssetInfo.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelAssetInfo.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelAssetInfo.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelAssetInfo.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelAssetInfo.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelAssetInfo.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelBundleInfo.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelBundleInfo.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelBundleInfo.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelBundleInfo.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelBundleInfo.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleModel\ABModelBundleInfo.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleTree.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleTree.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleTree.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleTree.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleTree.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetBundleTree.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetListTree.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetListTree.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetListTree.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetListTree.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetListTree.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\AssetListTree.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\BundleDetailList.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\BundleDetailList.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\BundleDetailList.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\BundleDetailList.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\BundleDetailList.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\BundleDetailList.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons\ABundleBrowserIconY1756Basic.png
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons\ABundleBrowserIconY1756Basic.png
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons\ABundleBrowserIconY1756Basic.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons\ABundleBrowserIconY1756Basic.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons\ABundleBrowserIconY1756Basic.png.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons\ABundleBrowserIconY1756Basic.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons\ABundleBrowserIconY1756Scene.png
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons\ABundleBrowserIconY1756Scene.png
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons\ABundleBrowserIconY1756Scene.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons\ABundleBrowserIconY1756Scene.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons\ABundleBrowserIconY1756Scene.png.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\Icons\ABundleBrowserIconY1756Scene.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageList.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageList.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageList.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageList.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageList.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageList.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageSystem.cs
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageSystem.cs
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageSystem.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageSystem.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageSystem.cs.meta
+      projectPath: Assets\AssetBundleBrowser\UnityEngine.AssetBundles\Editor\AssetBundleBrowser\MessageSystem.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS.meta
+      projectPath: Assets\OPS.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor.meta
+      projectPath: Assets\OPS\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins.meta
+      projectPath: Assets\OPS\Editor\Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil.meta
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\Mono.Cecil_License.md
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\Mono.Cecil_License.md
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\Mono.Cecil_License.md
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\Mono.Cecil_License.md.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\Mono.Cecil_License.md.meta
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\Mono.Cecil_License.md.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.dll
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.dll
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.dll.mdb
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.dll.mdb
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.dll.mdb.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.dll.mdb.meta
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.dll.meta
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.pdb
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.pdb
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.pdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.pdb.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.pdb.meta
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.Rocks.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.dll
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.dll
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.dll.mdb
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.dll.mdb
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.dll.mdb.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.dll.mdb.meta
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.dll.meta
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.pdb
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.pdb
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.pdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.pdb.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.pdb.meta
+      projectPath: Assets\OPS\Editor\Plugins\Mono.Cecil\OPS.Mono.Cecil.pdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free.meta
+      projectPath: Assets\OPS\Obfuscator.Free.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Attribute.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Attribute.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Attribute.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateClassAttribute.cs
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateClassAttribute.cs
+      projectPath: Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateClassAttribute.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateClassAttribute.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateClassAttribute.cs.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateClassAttribute.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateMethodBodyAttribute.cs
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateMethodBodyAttribute.cs
+      projectPath: Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateMethodBodyAttribute.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateMethodBodyAttribute.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateMethodBodyAttribute.cs.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Attribute\DoNotObfuscateMethodBodyAttribute.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Attribute\DoNotRenameAttribute.cs
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Attribute\DoNotRenameAttribute.cs
+      projectPath: Assets\OPS\Obfuscator.Free\Attribute\DoNotRenameAttribute.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Attribute\DoNotRenameAttribute.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Attribute\DoNotRenameAttribute.cs.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Attribute\DoNotRenameAttribute.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\BuildPostProcessor.cs
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\BuildPostProcessor.cs
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\BuildPostProcessor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\BuildPostProcessor.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\BuildPostProcessor.cs.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\BuildPostProcessor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Advanced_T32x.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Advanced_T32x.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Advanced_T32x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Advanced_T32x.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Advanced_T32x.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Advanced_T32x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\BugQuestion.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\BugQuestion.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\BugQuestion.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\BugQuestion.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\BugQuestion.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\BugQuestion.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_Off_24x.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Button_Off_24x.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_Off_24x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_Off_24x.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Button_Off_24x.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_Off_24x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_Off_Gold_24x.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Button_Off_Gold_24x.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_Off_Gold_24x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_Off_Gold_24x.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Button_Off_Gold_24x.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_Off_Gold_24x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_On_24x.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Button_On_24x.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_On_24x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_On_24x.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Button_On_24x.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_On_24x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_On_Gold_24x.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Button_On_Gold_24x.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_On_Gold_24x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_On_Gold_24x.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Button_On_Gold_24x.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Button_On_Gold_24x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Font.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Font.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Font.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Font\Candara.ttf
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Font\Candara.ttf
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Font\Candara.ttf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Font\Candara.ttf.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Font\Candara.ttf.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Font\Candara.ttf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Font\Candara_Bold.ttf
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Font\Candara_Bold.ttf
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Font\Candara_Bold.ttf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Font\Candara_Bold.ttf.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Font\Candara_Bold.ttf.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Font\Candara_Bold.ttf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\General_T32x.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\General_T32x.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\General_T32x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\General_T32x.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\General_T32x.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\General_T32x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\GuiSettings.cs
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\GuiSettings.cs
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\GuiSettings.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\GuiSettings.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\GuiSettings.cs.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\GuiSettings.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Header_Icon.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Header_Icon.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Header_Icon.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Header_Icon.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Header_Icon.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Header_Icon.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Optimal.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Optimal.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Optimal.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Optimal.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Optimal.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Optimal.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Optimal_Unselect.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Optimal_Unselect.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Optimal_Unselect.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Optimal_Unselect.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Optimal_Unselect.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Optimal_Unselect.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Simple.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Simple.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Simple.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Simple.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Simple.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Simple.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Simple_Unselect.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Simple_Unselect.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Simple_Unselect.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Simple_Unselect.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Simple_Unselect.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Simple_Unselect.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Standard.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Standard.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Standard.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Standard.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Standard.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Standard.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Standard_Unselect.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Standard_Unselect.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Standard_Unselect.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Standard_Unselect.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Standard_Unselect.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Profile_Standard_Unselect.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Rate.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Rate.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Rate.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Rate.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Rate.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Rate.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Security_T32x.png
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Security_T32x.png
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Security_T32x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\Security_T32x.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\Security_T32x.png.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\Security_T32x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\SettingsWindow.cs
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\SettingsWindow.cs
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\SettingsWindow.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Gui\SettingsWindow.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Gui\SettingsWindow.cs.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Gui\SettingsWindow.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Plugins.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Plugins.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Plugins\ObfuscatorFree.dll
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Plugins\ObfuscatorFree.dll
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Plugins\ObfuscatorFree.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Editor\Plugins\ObfuscatorFree.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Editor\Plugins\ObfuscatorFree.dll.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Editor\Plugins\ObfuscatorFree.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Obfuscator_Readme.txt
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Obfuscator_Readme.txt
+      projectPath: Assets\OPS\Obfuscator.Free\Obfuscator_Readme.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Obfuscator_Readme.txt.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Obfuscator_Readme.txt.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Obfuscator_Readme.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Obfuscator_Settings.txt
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Obfuscator_Settings.txt
+      projectPath: Assets\OPS\Obfuscator.Free\Obfuscator_Settings.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Obfuscator_Settings.txt.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Obfuscator_Settings.txt.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Obfuscator_Settings.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Tools.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Tools.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Tools.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Tools\Obfuscator_LogViewer.exe
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Tools\Obfuscator_LogViewer.exe
+      projectPath: Assets\OPS\Obfuscator.Free\Tools\Obfuscator_LogViewer.exe
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Tools\Obfuscator_LogViewer.exe.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Tools\Obfuscator_LogViewer.exe.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Tools\Obfuscator_LogViewer.exe.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Version_History.txt
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Version_History.txt
+      projectPath: Assets\OPS\Obfuscator.Free\Version_History.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\OPS\Obfuscator.Free\Version_History.txt.meta
+      fullPath: D:\Project\2D-Platformer\Assets\OPS\Obfuscator.Free\Version_History.txt.meta
+      projectPath: Assets\OPS\Obfuscator.Free\Version_History.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Grass\GrassLand 3Platform.prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Grass\GrassLand 3Platform.prefab
+      projectPath: Assets\Prefabs\Grass\GrassLand 3Platform.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Grass\GrassLandStartPlatform 1.prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Grass\GrassLandStartPlatform
+        1.prefab
+      projectPath: Assets\Prefabs\Grass\GrassLandStartPlatform 1.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level1.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level2.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level2.unity
+      projectPath: Assets\Scenes\Level2.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level3.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level3.unity
+      projectPath: Assets\Scenes\Level3.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Level3.unity.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level3.unity.meta
+      projectPath: Assets\Scenes\Level3.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\MainMenu.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\MainMenu.unity
+      projectPath: Assets\Scenes\MainMenu.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Global\MainMenu.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\Global\MainMenu.cs
+      projectPath: Assets\Scripts\Global\MainMenu.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\VersionEditor.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\VersionEditor.meta
+      projectPath: Assets\Scripts\VersionEditor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\VersionEditor\VersionInformation.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\VersionEditor\VersionInformation.cs
+      projectPath: Assets\Scripts\VersionEditor\VersionInformation.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\VersionEditor\VersionInformation.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\VersionEditor\VersionInformation.cs.meta
+      projectPath: Assets\Scripts\VersionEditor\VersionInformation.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor.meta
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor.meta
+      projectPath: Assets\VersionEditor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor.meta
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor.meta
+      projectPath: Assets\VersionEditor\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.ClassInjector.dll
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.ClassInjector.dll
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.ClassInjector.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.ClassInjector.dll.mdb
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.ClassInjector.dll.mdb
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.ClassInjector.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.ClassInjector.dll.mdb.meta
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.ClassInjector.dll.mdb.meta
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.ClassInjector.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.ClassInjector.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.ClassInjector.dll.meta
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.ClassInjector.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.ProjectPrefsManager.dll
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.ProjectPrefsManager.dll
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.ProjectPrefsManager.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.ProjectPrefsManager.dll.mdb
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.ProjectPrefsManager.dll.mdb
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.ProjectPrefsManager.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.ProjectPrefsManager.dll.mdb.meta
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.ProjectPrefsManager.dll.mdb.meta
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.ProjectPrefsManager.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.ProjectPrefsManager.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.ProjectPrefsManager.dll.meta
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.ProjectPrefsManager.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.Unity.dll
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.Unity.dll
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.Unity.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.Unity.dll.mdb
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.Unity.dll.mdb
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.Unity.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.Unity.dll.mdb.meta
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.Unity.dll.mdb.meta
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.Unity.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.Unity.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.Unity.dll.meta
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.Unity.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.dll
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.dll
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.dll.mdb
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.dll.mdb
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.dll.mdb.meta
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.dll.mdb.meta
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.dll.mdb.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.dll.meta
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.dll.meta
+      projectPath: Assets\VersionEditor\Editor\MaKeSoftware.VersionEditor.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Readme.txt
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Readme.txt
+      projectPath: Assets\VersionEditor\Readme.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\Readme.txt.meta
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\Readme.txt.meta
+      projectPath: Assets\VersionEditor\Readme.txt.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\versionsettings.preferences
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\versionsettings.preferences
+      projectPath: Assets\VersionEditor\versionsettings.preferences
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\versionsettings.preferences.meta
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\versionsettings.preferences.meta
+      projectPath: Assets\VersionEditor\versionsettings.preferences.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: D:\Project\2D-Platformer\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\EditorUserBuildSettings.asset
+      fullPath: D:\Project\2D-Platformer\Library\EditorUserBuildSettings.asset
+      projectPath: Library\EditorUserBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastBuild.buildreport
+      fullPath: D:\Project\2D-Platformer\Library\LastBuild.buildreport
+      projectPath: Library\LastBuild.buildreport
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: D:\Project\2D-Platformer\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\Managed\Assembly-CSharp.dll
+      fullPath: D:\Project\2D-Platformer\Library\PlayerDataCache\Data\Managed\Assembly-CSharp.dll
+      projectPath: Library\PlayerDataCache\Data\Managed\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\Managed\Assembly-CSharp.dll.mdb
+      fullPath: D:\Project\2D-Platformer\Library\PlayerDataCache\Data\Managed\Assembly-CSharp.dll.mdb
+      projectPath: Library\PlayerDataCache\Data\Managed\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\boot.config
+      fullPath: D:\Project\2D-Platformer\Library\PlayerDataCache\Data\boot.config
+      projectPath: Library\PlayerDataCache\Data\boot.config
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\globalgamemanagers
+      fullPath: D:\Project\2D-Platformer\Library\PlayerDataCache\Data\globalgamemanagers
+      projectPath: Library\PlayerDataCache\Data\globalgamemanagers
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\globalgamemanagers.assets
+      fullPath: D:\Project\2D-Platformer\Library\PlayerDataCache\Data\globalgamemanagers.assets
+      projectPath: Library\PlayerDataCache\Data\globalgamemanagers.assets
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\level0
+      fullPath: D:\Project\2D-Platformer\Library\PlayerDataCache\Data\level0
+      projectPath: Library\PlayerDataCache\Data\level0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\level1
+      fullPath: D:\Project\2D-Platformer\Library\PlayerDataCache\Data\level1
+      projectPath: Library\PlayerDataCache\Data\level1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\level2
+      fullPath: D:\Project\2D-Platformer\Library\PlayerDataCache\Data\level2
+      projectPath: Library\PlayerDataCache\Data\level2
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\sharedassets0.assets
+      fullPath: D:\Project\2D-Platformer\Library\PlayerDataCache\Data\sharedassets0.assets
+      projectPath: Library\PlayerDataCache\Data\sharedassets0.assets
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\sharedassets1.assets
+      fullPath: D:\Project\2D-Platformer\Library\PlayerDataCache\Data\sharedassets1.assets
+      projectPath: Library\PlayerDataCache\Data\sharedassets1.assets
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\Data\sharedassets2.assets
+      fullPath: D:\Project\2D-Platformer\Library\PlayerDataCache\Data\sharedassets2.assets
+      projectPath: Library\PlayerDataCache\Data\sharedassets2.assets
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\PlayerDataCache\ScriptLayoutHashes.txt
+      fullPath: D:\Project\2D-Platformer\Library\PlayerDataCache\ScriptLayoutHashes.txt
+      projectPath: Library\PlayerDataCache\ScriptLayoutHashes.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ProjectSettings.asset
+      fullPath: D:\Project\2D-Platformer\Library\ProjectSettings.asset
+      projectPath: Library\ProjectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      fullPath: D:\Project\2D-Platformer\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+      fullPath: D:\Project\2D-Platformer\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Project\2D-Platformer\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: D:\Project\2D-Platformer\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Project\2D-Platformer\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: D:\Project\2D-Platformer\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      fullPath: D:\Project\2D-Platformer\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+      projectPath: Library\metadata\01\0188ec438976e5849b40a2c1ce5f20f9.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\04\0412eae8c76fd47d288c04edf27e7e5e
+      fullPath: D:\Project\2D-Platformer\Library\metadata\04\0412eae8c76fd47d288c04edf27e7e5e
+      projectPath: Library\metadata\04\0412eae8c76fd47d288c04edf27e7e5e
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\04\0412eae8c76fd47d288c04edf27e7e5e.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\04\0412eae8c76fd47d288c04edf27e7e5e.info
+      projectPath: Library\metadata\04\0412eae8c76fd47d288c04edf27e7e5e.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\08\08bf0e199b217464c9a209a64d18e847
+      fullPath: D:\Project\2D-Platformer\Library\metadata\08\08bf0e199b217464c9a209a64d18e847
+      projectPath: Library\metadata\08\08bf0e199b217464c9a209a64d18e847
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\08\08bf0e199b217464c9a209a64d18e847.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\08\08bf0e199b217464c9a209a64d18e847.info
+      projectPath: Library\metadata\08\08bf0e199b217464c9a209a64d18e847.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\0f\0f4e68a61c80c7f4fb12cb1d0f9f4d30
+      fullPath: D:\Project\2D-Platformer\Library\metadata\0f\0f4e68a61c80c7f4fb12cb1d0f9f4d30
+      projectPath: Library\metadata\0f\0f4e68a61c80c7f4fb12cb1d0f9f4d30
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\0f\0f4e68a61c80c7f4fb12cb1d0f9f4d30.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\0f\0f4e68a61c80c7f4fb12cb1d0f9f4d30.info
+      projectPath: Library\metadata\0f\0f4e68a61c80c7f4fb12cb1d0f9f4d30.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\13\136dc24f151211d438acee17aff4e934
+      fullPath: D:\Project\2D-Platformer\Library\metadata\13\136dc24f151211d438acee17aff4e934
+      projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+      projectPath: Library\metadata\13\136dc24f151211d438acee17aff4e934.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\15\151a1d946b98deb4b98445400983ba92
+      fullPath: D:\Project\2D-Platformer\Library\metadata\15\151a1d946b98deb4b98445400983ba92
+      projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+      projectPath: Library\metadata\15\151a1d946b98deb4b98445400983ba92.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      fullPath: D:\Project\2D-Platformer\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+      projectPath: Library\metadata\15\15ca2bebf173f2d4484686a03a45b56d.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\16\16f967d0656794a2b87ade351894232b
+      fullPath: D:\Project\2D-Platformer\Library\metadata\16\16f967d0656794a2b87ade351894232b
+      projectPath: Library\metadata\16\16f967d0656794a2b87ade351894232b
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\16\16f967d0656794a2b87ade351894232b.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\16\16f967d0656794a2b87ade351894232b.info
+      projectPath: Library\metadata\16\16f967d0656794a2b87ade351894232b.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+      fullPath: D:\Project\2D-Platformer\Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+      projectPath: Library\metadata\18\18e096a98c2704c40a818dd1214cd179
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\18\18e096a98c2704c40a818dd1214cd179.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\18\18e096a98c2704c40a818dd1214cd179.info
+      projectPath: Library\metadata\18\18e096a98c2704c40a818dd1214cd179.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\18\18fcff3e7914f5141a03c70298555389
+      fullPath: D:\Project\2D-Platformer\Library\metadata\18\18fcff3e7914f5141a03c70298555389
+      projectPath: Library\metadata\18\18fcff3e7914f5141a03c70298555389
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\18\18fcff3e7914f5141a03c70298555389.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\18\18fcff3e7914f5141a03c70298555389.info
+      projectPath: Library\metadata\18\18fcff3e7914f5141a03c70298555389.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\1c\1cf95c275e9d91643b64217b5682fe29
+      fullPath: D:\Project\2D-Platformer\Library\metadata\1c\1cf95c275e9d91643b64217b5682fe29
+      projectPath: Library\metadata\1c\1cf95c275e9d91643b64217b5682fe29
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\1c\1cf95c275e9d91643b64217b5682fe29.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\1c\1cf95c275e9d91643b64217b5682fe29.info
+      projectPath: Library\metadata\1c\1cf95c275e9d91643b64217b5682fe29.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\1d\1df0b84f25a7f75498fe6140db3965be
+      fullPath: D:\Project\2D-Platformer\Library\metadata\1d\1df0b84f25a7f75498fe6140db3965be
+      projectPath: Library\metadata\1d\1df0b84f25a7f75498fe6140db3965be
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\1d\1df0b84f25a7f75498fe6140db3965be.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\1d\1df0b84f25a7f75498fe6140db3965be.info
+      projectPath: Library\metadata\1d\1df0b84f25a7f75498fe6140db3965be.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\1f\1f0593568c9a664469f9261cc53e697b
+      fullPath: D:\Project\2D-Platformer\Library\metadata\1f\1f0593568c9a664469f9261cc53e697b
+      projectPath: Library\metadata\1f\1f0593568c9a664469f9261cc53e697b
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\1f\1f0593568c9a664469f9261cc53e697b.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\1f\1f0593568c9a664469f9261cc53e697b.info
+      projectPath: Library\metadata\1f\1f0593568c9a664469f9261cc53e697b.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\1f\1fed16a1c0a6e59409d82a9bc09c0549
+      fullPath: D:\Project\2D-Platformer\Library\metadata\1f\1fed16a1c0a6e59409d82a9bc09c0549
+      projectPath: Library\metadata\1f\1fed16a1c0a6e59409d82a9bc09c0549
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\1f\1fed16a1c0a6e59409d82a9bc09c0549.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\1f\1fed16a1c0a6e59409d82a9bc09c0549.info
+      projectPath: Library\metadata\1f\1fed16a1c0a6e59409d82a9bc09c0549.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\20\20db3d0c8454dc144b5aa2c073cea9dd
+      fullPath: D:\Project\2D-Platformer\Library\metadata\20\20db3d0c8454dc144b5aa2c073cea9dd
+      projectPath: Library\metadata\20\20db3d0c8454dc144b5aa2c073cea9dd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\20\20db3d0c8454dc144b5aa2c073cea9dd.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\20\20db3d0c8454dc144b5aa2c073cea9dd.info
+      projectPath: Library\metadata\20\20db3d0c8454dc144b5aa2c073cea9dd.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      fullPath: D:\Project\2D-Platformer\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+      projectPath: Library\metadata\21\21206c65839f84d0e9ae14bc1fdc68db.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\23\23c8bee69b591054094d32918f98facd
+      fullPath: D:\Project\2D-Platformer\Library\metadata\23\23c8bee69b591054094d32918f98facd
+      projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+      projectPath: Library\metadata\23\23c8bee69b591054094d32918f98facd.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\24\249eb7fc4568cef418faeadbd18f8a79.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\24\249eb7fc4568cef418faeadbd18f8a79.info
+      projectPath: Library\metadata\24\249eb7fc4568cef418faeadbd18f8a79.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\24\24f1466b174814bfca4ce2c53d15a5b5
+      fullPath: D:\Project\2D-Platformer\Library\metadata\24\24f1466b174814bfca4ce2c53d15a5b5
+      projectPath: Library\metadata\24\24f1466b174814bfca4ce2c53d15a5b5
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\24\24f1466b174814bfca4ce2c53d15a5b5.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\24\24f1466b174814bfca4ce2c53d15a5b5.info
+      projectPath: Library\metadata\24\24f1466b174814bfca4ce2c53d15a5b5.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+      fullPath: D:\Project\2D-Platformer\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+      projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+      projectPath: Library\metadata\25\2590b98e5cafc4e32b61170d7b917ee6.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\28\285b42862e70e4e45a68a0d26630b391
+      fullPath: D:\Project\2D-Platformer\Library\metadata\28\285b42862e70e4e45a68a0d26630b391
+      projectPath: Library\metadata\28\285b42862e70e4e45a68a0d26630b391
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\28\285b42862e70e4e45a68a0d26630b391.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\28\285b42862e70e4e45a68a0d26630b391.info
+      projectPath: Library\metadata\28\285b42862e70e4e45a68a0d26630b391.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\2b\2be1dd7bed65a4621a87d20c8ec65084
+      fullPath: D:\Project\2D-Platformer\Library\metadata\2b\2be1dd7bed65a4621a87d20c8ec65084
+      projectPath: Library\metadata\2b\2be1dd7bed65a4621a87d20c8ec65084
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\2b\2be1dd7bed65a4621a87d20c8ec65084.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\2b\2be1dd7bed65a4621a87d20c8ec65084.info
+      projectPath: Library\metadata\2b\2be1dd7bed65a4621a87d20c8ec65084.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\2c\2cd56afffe68959418dc30c11a0d7d74
+      fullPath: D:\Project\2D-Platformer\Library\metadata\2c\2cd56afffe68959418dc30c11a0d7d74
+      projectPath: Library\metadata\2c\2cd56afffe68959418dc30c11a0d7d74
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\2c\2cd56afffe68959418dc30c11a0d7d74.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\2c\2cd56afffe68959418dc30c11a0d7d74.info
+      projectPath: Library\metadata\2c\2cd56afffe68959418dc30c11a0d7d74.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\36\36b80cbfb3d1118428130ed574e75cd1
+      fullPath: D:\Project\2D-Platformer\Library\metadata\36\36b80cbfb3d1118428130ed574e75cd1
+      projectPath: Library\metadata\36\36b80cbfb3d1118428130ed574e75cd1
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\36\36b80cbfb3d1118428130ed574e75cd1.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\36\36b80cbfb3d1118428130ed574e75cd1.info
+      projectPath: Library\metadata\36\36b80cbfb3d1118428130ed574e75cd1.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\39\398e8dcb2842643c18e34ef333c8d8f1
+      fullPath: D:\Project\2D-Platformer\Library\metadata\39\398e8dcb2842643c18e34ef333c8d8f1
+      projectPath: Library\metadata\39\398e8dcb2842643c18e34ef333c8d8f1
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\39\398e8dcb2842643c18e34ef333c8d8f1.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\39\398e8dcb2842643c18e34ef333c8d8f1.info
+      projectPath: Library\metadata\39\398e8dcb2842643c18e34ef333c8d8f1.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\3c\3c5b6d59993414f52a8478e0d47ec4b2
+      fullPath: D:\Project\2D-Platformer\Library\metadata\3c\3c5b6d59993414f52a8478e0d47ec4b2
+      projectPath: Library\metadata\3c\3c5b6d59993414f52a8478e0d47ec4b2
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\3c\3c5b6d59993414f52a8478e0d47ec4b2.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\3c\3c5b6d59993414f52a8478e0d47ec4b2.info
+      projectPath: Library\metadata\3c\3c5b6d59993414f52a8478e0d47ec4b2.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\3f\3ff5236180f6c61488f497c640191f03
+      fullPath: D:\Project\2D-Platformer\Library\metadata\3f\3ff5236180f6c61488f497c640191f03
+      projectPath: Library\metadata\3f\3ff5236180f6c61488f497c640191f03
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\3f\3ff5236180f6c61488f497c640191f03.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\3f\3ff5236180f6c61488f497c640191f03.info
+      projectPath: Library\metadata\3f\3ff5236180f6c61488f497c640191f03.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\44\446fc0a42a5d3654fa14b3ea0e97b050
+      fullPath: D:\Project\2D-Platformer\Library\metadata\44\446fc0a42a5d3654fa14b3ea0e97b050
+      projectPath: Library\metadata\44\446fc0a42a5d3654fa14b3ea0e97b050
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\44\446fc0a42a5d3654fa14b3ea0e97b050.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\44\446fc0a42a5d3654fa14b3ea0e97b050.info
+      projectPath: Library\metadata\44\446fc0a42a5d3654fa14b3ea0e97b050.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      fullPath: D:\Project\2D-Platformer\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      projectPath: Library\metadata\48\48c22d5d7479fcb49ab3be0cdd2ccec0.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\48\48e3cc7e9b0734a45ad52f98c9b7c72b
+      fullPath: D:\Project\2D-Platformer\Library\metadata\48\48e3cc7e9b0734a45ad52f98c9b7c72b
+      projectPath: Library\metadata\48\48e3cc7e9b0734a45ad52f98c9b7c72b
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\48\48e3cc7e9b0734a45ad52f98c9b7c72b.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\48\48e3cc7e9b0734a45ad52f98c9b7c72b.info
+      projectPath: Library\metadata\48\48e3cc7e9b0734a45ad52f98c9b7c72b.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\48\48fd7d1b33b27467cb4c3f7dc8e38ac5
+      fullPath: D:\Project\2D-Platformer\Library\metadata\48\48fd7d1b33b27467cb4c3f7dc8e38ac5
+      projectPath: Library\metadata\48\48fd7d1b33b27467cb4c3f7dc8e38ac5
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\48\48fd7d1b33b27467cb4c3f7dc8e38ac5.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\48\48fd7d1b33b27467cb4c3f7dc8e38ac5.info
+      projectPath: Library\metadata\48\48fd7d1b33b27467cb4c3f7dc8e38ac5.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\4b\4b101e799d23d1745b59b26aa9742649
+      fullPath: D:\Project\2D-Platformer\Library\metadata\4b\4b101e799d23d1745b59b26aa9742649
+      projectPath: Library\metadata\4b\4b101e799d23d1745b59b26aa9742649
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\4b\4b101e799d23d1745b59b26aa9742649.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\4b\4b101e799d23d1745b59b26aa9742649.info
+      projectPath: Library\metadata\4b\4b101e799d23d1745b59b26aa9742649.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\4f\4f694af7b43ab904ba5506a6e24a99a3
+      fullPath: D:\Project\2D-Platformer\Library\metadata\4f\4f694af7b43ab904ba5506a6e24a99a3
+      projectPath: Library\metadata\4f\4f694af7b43ab904ba5506a6e24a99a3
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\4f\4f694af7b43ab904ba5506a6e24a99a3.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\4f\4f694af7b43ab904ba5506a6e24a99a3.info
+      projectPath: Library\metadata\4f\4f694af7b43ab904ba5506a6e24a99a3.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\52\528bbf11b1f8343df8684e3afe2262c8
+      fullPath: D:\Project\2D-Platformer\Library\metadata\52\528bbf11b1f8343df8684e3afe2262c8
+      projectPath: Library\metadata\52\528bbf11b1f8343df8684e3afe2262c8
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\52\528bbf11b1f8343df8684e3afe2262c8.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\52\528bbf11b1f8343df8684e3afe2262c8.info
+      projectPath: Library\metadata\52\528bbf11b1f8343df8684e3afe2262c8.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\52\52fddb62e2ad4f94aa28ddf3366b4c40
+      fullPath: D:\Project\2D-Platformer\Library\metadata\52\52fddb62e2ad4f94aa28ddf3366b4c40
+      projectPath: Library\metadata\52\52fddb62e2ad4f94aa28ddf3366b4c40
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\52\52fddb62e2ad4f94aa28ddf3366b4c40.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\52\52fddb62e2ad4f94aa28ddf3366b4c40.info
+      projectPath: Library\metadata\52\52fddb62e2ad4f94aa28ddf3366b4c40.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\55\55c720b9d0808e142878835e65520af4
+      fullPath: D:\Project\2D-Platformer\Library\metadata\55\55c720b9d0808e142878835e65520af4
+      projectPath: Library\metadata\55\55c720b9d0808e142878835e65520af4
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\55\55c720b9d0808e142878835e65520af4.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\55\55c720b9d0808e142878835e65520af4.info
+      projectPath: Library\metadata\55\55c720b9d0808e142878835e65520af4.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\56\56462951dc7304b44bdff84b23ae24e4
+      fullPath: D:\Project\2D-Platformer\Library\metadata\56\56462951dc7304b44bdff84b23ae24e4
+      projectPath: Library\metadata\56\56462951dc7304b44bdff84b23ae24e4
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\56\56462951dc7304b44bdff84b23ae24e4.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\56\56462951dc7304b44bdff84b23ae24e4.info
+      projectPath: Library\metadata\56\56462951dc7304b44bdff84b23ae24e4.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\59\593c7979585ce404287a1514940cd85c.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\59\593c7979585ce404287a1514940cd85c.info
+      projectPath: Library\metadata\59\593c7979585ce404287a1514940cd85c.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\5d\5d808e98e52f0d0419b87da63282de6a
+      fullPath: D:\Project\2D-Platformer\Library\metadata\5d\5d808e98e52f0d0419b87da63282de6a
+      projectPath: Library\metadata\5d\5d808e98e52f0d0419b87da63282de6a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\5d\5d808e98e52f0d0419b87da63282de6a.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\5d\5d808e98e52f0d0419b87da63282de6a.info
+      projectPath: Library\metadata\5d\5d808e98e52f0d0419b87da63282de6a.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\5f\5f69b9239b8c7a74caae4abff499e7d7
+      fullPath: D:\Project\2D-Platformer\Library\metadata\5f\5f69b9239b8c7a74caae4abff499e7d7
+      projectPath: Library\metadata\5f\5f69b9239b8c7a74caae4abff499e7d7
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\5f\5f69b9239b8c7a74caae4abff499e7d7.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\5f\5f69b9239b8c7a74caae4abff499e7d7.info
+      projectPath: Library\metadata\5f\5f69b9239b8c7a74caae4abff499e7d7.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\5f\5fb62cf4b25651743929af1a52468279
+      fullPath: D:\Project\2D-Platformer\Library\metadata\5f\5fb62cf4b25651743929af1a52468279
+      projectPath: Library\metadata\5f\5fb62cf4b25651743929af1a52468279
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\5f\5fb62cf4b25651743929af1a52468279.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\5f\5fb62cf4b25651743929af1a52468279.info
+      projectPath: Library\metadata\5f\5fb62cf4b25651743929af1a52468279.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\60\6016eb61f8dab4cb48f5ea13d9d7609a
+      fullPath: D:\Project\2D-Platformer\Library\metadata\60\6016eb61f8dab4cb48f5ea13d9d7609a
+      projectPath: Library\metadata\60\6016eb61f8dab4cb48f5ea13d9d7609a
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\60\6016eb61f8dab4cb48f5ea13d9d7609a.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\60\6016eb61f8dab4cb48f5ea13d9d7609a.info
+      projectPath: Library\metadata\60\6016eb61f8dab4cb48f5ea13d9d7609a.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\62\6296910681705ff48a964e19d4056795
+      fullPath: D:\Project\2D-Platformer\Library\metadata\62\6296910681705ff48a964e19d4056795
+      projectPath: Library\metadata\62\6296910681705ff48a964e19d4056795
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\62\6296910681705ff48a964e19d4056795.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\62\6296910681705ff48a964e19d4056795.info
+      projectPath: Library\metadata\62\6296910681705ff48a964e19d4056795.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      fullPath: D:\Project\2D-Platformer\Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+      projectPath: Library\metadata\63\636d33ae594884e7d80b569f429d245d.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      fullPath: D:\Project\2D-Platformer\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+      projectPath: Library\metadata\68\68c7e4565cde54155bb78d8e935f1dd4.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6b\6b79ad7a736dc564bbaf7f1841841b5c
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6b\6b79ad7a736dc564bbaf7f1841841b5c
+      projectPath: Library\metadata\6b\6b79ad7a736dc564bbaf7f1841841b5c
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6b\6b79ad7a736dc564bbaf7f1841841b5c.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6b\6b79ad7a736dc564bbaf7f1841841b5c.info
+      projectPath: Library\metadata\6b\6b79ad7a736dc564bbaf7f1841841b5c.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6b\6bc83ebde74564d21bba3d6df69b382c
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6b\6bc83ebde74564d21bba3d6df69b382c
+      projectPath: Library\metadata\6b\6bc83ebde74564d21bba3d6df69b382c
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6b\6bc83ebde74564d21bba3d6df69b382c.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6b\6bc83ebde74564d21bba3d6df69b382c.info
+      projectPath: Library\metadata\6b\6bc83ebde74564d21bba3d6df69b382c.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6c\6c9c3edf8de154d67a80fa8a5eaf051a
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6c\6c9c3edf8de154d67a80fa8a5eaf051a
+      projectPath: Library\metadata\6c\6c9c3edf8de154d67a80fa8a5eaf051a
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6c\6c9c3edf8de154d67a80fa8a5eaf051a.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6c\6c9c3edf8de154d67a80fa8a5eaf051a.info
+      projectPath: Library\metadata\6c\6c9c3edf8de154d67a80fa8a5eaf051a.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6e\6e08a7302ab4db14888b15985b14ea66
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6e\6e08a7302ab4db14888b15985b14ea66
+      projectPath: Library\metadata\6e\6e08a7302ab4db14888b15985b14ea66
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6e\6e08a7302ab4db14888b15985b14ea66.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6e\6e08a7302ab4db14888b15985b14ea66.info
+      projectPath: Library\metadata\6e\6e08a7302ab4db14888b15985b14ea66.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6e\6ea98043cde057c40baf5c6b898a6c93
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6e\6ea98043cde057c40baf5c6b898a6c93
+      projectPath: Library\metadata\6e\6ea98043cde057c40baf5c6b898a6c93
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6e\6ea98043cde057c40baf5c6b898a6c93.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6e\6ea98043cde057c40baf5c6b898a6c93.info
+      projectPath: Library\metadata\6e\6ea98043cde057c40baf5c6b898a6c93.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6e\6eae9c0b1a89baa4fbd57764f21c7d8d
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6e\6eae9c0b1a89baa4fbd57764f21c7d8d
+      projectPath: Library\metadata\6e\6eae9c0b1a89baa4fbd57764f21c7d8d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6e\6eae9c0b1a89baa4fbd57764f21c7d8d.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6e\6eae9c0b1a89baa4fbd57764f21c7d8d.info
+      projectPath: Library\metadata\6e\6eae9c0b1a89baa4fbd57764f21c7d8d.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6f\6fb7d6948fce64639afba0b7c2aa6930
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6f\6fb7d6948fce64639afba0b7c2aa6930
+      projectPath: Library\metadata\6f\6fb7d6948fce64639afba0b7c2aa6930
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6f\6fb7d6948fce64639afba0b7c2aa6930.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\6f\6fb7d6948fce64639afba0b7c2aa6930.info
+      projectPath: Library\metadata\6f\6fb7d6948fce64639afba0b7c2aa6930.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5
+      fullPath: D:\Project\2D-Platformer\Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5
+      projectPath: Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5.info
+      projectPath: Library\metadata\72\720712be6e31c444f88f57bb85bf5fa5.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\72\727e4daee7abc4894be37fb521648ade
+      fullPath: D:\Project\2D-Platformer\Library\metadata\72\727e4daee7abc4894be37fb521648ade
+      projectPath: Library\metadata\72\727e4daee7abc4894be37fb521648ade
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\72\727e4daee7abc4894be37fb521648ade.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\72\727e4daee7abc4894be37fb521648ade.info
+      projectPath: Library\metadata\72\727e4daee7abc4894be37fb521648ade.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\74\741d74b73f8c01343ac7b3809864b07d
+      fullPath: D:\Project\2D-Platformer\Library\metadata\74\741d74b73f8c01343ac7b3809864b07d
+      projectPath: Library\metadata\74\741d74b73f8c01343ac7b3809864b07d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\74\741d74b73f8c01343ac7b3809864b07d.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\74\741d74b73f8c01343ac7b3809864b07d.info
+      projectPath: Library\metadata\74\741d74b73f8c01343ac7b3809864b07d.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\75\75ba19447bbd4be4bb6a4b5210183d53
+      fullPath: D:\Project\2D-Platformer\Library\metadata\75\75ba19447bbd4be4bb6a4b5210183d53
+      projectPath: Library\metadata\75\75ba19447bbd4be4bb6a4b5210183d53
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\75\75ba19447bbd4be4bb6a4b5210183d53.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\75\75ba19447bbd4be4bb6a4b5210183d53.info
+      projectPath: Library\metadata\75\75ba19447bbd4be4bb6a4b5210183d53.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      fullPath: D:\Project\2D-Platformer\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+      projectPath: Library\metadata\79\790749ba7e4b18141953e39cb13f1b79.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\7d\7d3123a97bd67b842a9f60a736500cdd
+      fullPath: D:\Project\2D-Platformer\Library\metadata\7d\7d3123a97bd67b842a9f60a736500cdd
+      projectPath: Library\metadata\7d\7d3123a97bd67b842a9f60a736500cdd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\7d\7d3123a97bd67b842a9f60a736500cdd.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\7d\7d3123a97bd67b842a9f60a736500cdd.info
+      projectPath: Library\metadata\7d\7d3123a97bd67b842a9f60a736500cdd.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\7d\7d70e731df813402b861a395fd9dbc6c
+      fullPath: D:\Project\2D-Platformer\Library\metadata\7d\7d70e731df813402b861a395fd9dbc6c
+      projectPath: Library\metadata\7d\7d70e731df813402b861a395fd9dbc6c
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\7d\7d70e731df813402b861a395fd9dbc6c.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\7d\7d70e731df813402b861a395fd9dbc6c.info
+      projectPath: Library\metadata\7d\7d70e731df813402b861a395fd9dbc6c.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\81\817c3c1504f4d284c9aac6700c2f4bb3
+      fullPath: D:\Project\2D-Platformer\Library\metadata\81\817c3c1504f4d284c9aac6700c2f4bb3
+      projectPath: Library\metadata\81\817c3c1504f4d284c9aac6700c2f4bb3
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\81\817c3c1504f4d284c9aac6700c2f4bb3.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\81\817c3c1504f4d284c9aac6700c2f4bb3.info
+      projectPath: Library\metadata\81\817c3c1504f4d284c9aac6700c2f4bb3.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\85\85ddfbedb53d67e43abfea1bed6d95c2
+      fullPath: D:\Project\2D-Platformer\Library\metadata\85\85ddfbedb53d67e43abfea1bed6d95c2
+      projectPath: Library\metadata\85\85ddfbedb53d67e43abfea1bed6d95c2
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\85\85ddfbedb53d67e43abfea1bed6d95c2.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\85\85ddfbedb53d67e43abfea1bed6d95c2.info
+      projectPath: Library\metadata\85\85ddfbedb53d67e43abfea1bed6d95c2.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      fullPath: D:\Project\2D-Platformer\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+      projectPath: Library\metadata\86\868fbb4c41814baebc00f96e24ede2f8.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\89\89ea09f5d28f3664a8b65dd894b3bd53
+      fullPath: D:\Project\2D-Platformer\Library\metadata\89\89ea09f5d28f3664a8b65dd894b3bd53
+      projectPath: Library\metadata\89\89ea09f5d28f3664a8b65dd894b3bd53
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\89\89ea09f5d28f3664a8b65dd894b3bd53.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\89\89ea09f5d28f3664a8b65dd894b3bd53.info
+      projectPath: Library\metadata\89\89ea09f5d28f3664a8b65dd894b3bd53.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\8a\8a06f675e10f28c4f90fdb414efd68f7
+      fullPath: D:\Project\2D-Platformer\Library\metadata\8a\8a06f675e10f28c4f90fdb414efd68f7
+      projectPath: Library\metadata\8a\8a06f675e10f28c4f90fdb414efd68f7
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\8a\8a06f675e10f28c4f90fdb414efd68f7.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\8a\8a06f675e10f28c4f90fdb414efd68f7.info
+      projectPath: Library\metadata\8a\8a06f675e10f28c4f90fdb414efd68f7.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\8a\8a0d689411f095d4bbd7ec9520e8a413
+      fullPath: D:\Project\2D-Platformer\Library\metadata\8a\8a0d689411f095d4bbd7ec9520e8a413
+      projectPath: Library\metadata\8a\8a0d689411f095d4bbd7ec9520e8a413
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\8a\8a0d689411f095d4bbd7ec9520e8a413.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\8a\8a0d689411f095d4bbd7ec9520e8a413.info
+      projectPath: Library\metadata\8a\8a0d689411f095d4bbd7ec9520e8a413.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\8b\8b0f3ce8b96be904487e083bde084404
+      fullPath: D:\Project\2D-Platformer\Library\metadata\8b\8b0f3ce8b96be904487e083bde084404
+      projectPath: Library\metadata\8b\8b0f3ce8b96be904487e083bde084404
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\8b\8b0f3ce8b96be904487e083bde084404.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\8b\8b0f3ce8b96be904487e083bde084404.info
+      projectPath: Library\metadata\8b\8b0f3ce8b96be904487e083bde084404.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\8c\8ca6c6326b804fc48b59d5964a947178
+      fullPath: D:\Project\2D-Platformer\Library\metadata\8c\8ca6c6326b804fc48b59d5964a947178
+      projectPath: Library\metadata\8c\8ca6c6326b804fc48b59d5964a947178
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\8c\8ca6c6326b804fc48b59d5964a947178.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\8c\8ca6c6326b804fc48b59d5964a947178.info
+      projectPath: Library\metadata\8c\8ca6c6326b804fc48b59d5964a947178.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\98\9826b3850e3cc10418d354cf3a56ac36
+      fullPath: D:\Project\2D-Platformer\Library\metadata\98\9826b3850e3cc10418d354cf3a56ac36
+      projectPath: Library\metadata\98\9826b3850e3cc10418d354cf3a56ac36
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\98\9826b3850e3cc10418d354cf3a56ac36.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\98\9826b3850e3cc10418d354cf3a56ac36.info
+      projectPath: Library\metadata\98\9826b3850e3cc10418d354cf3a56ac36.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\98\987b76c7bd55a74418b398345d6a1182
+      fullPath: D:\Project\2D-Platformer\Library\metadata\98\987b76c7bd55a74418b398345d6a1182
+      projectPath: Library\metadata\98\987b76c7bd55a74418b398345d6a1182
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\98\987b76c7bd55a74418b398345d6a1182.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\98\987b76c7bd55a74418b398345d6a1182.info
+      projectPath: Library\metadata\98\987b76c7bd55a74418b398345d6a1182.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+      fullPath: D:\Project\2D-Platformer\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+      projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
+      projectPath: Library\metadata\99\99b48d4d4f6a66340ab06bd487d70a45.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\9c\9ca9a97eb0787744baedf8471cbf0c11
+      fullPath: D:\Project\2D-Platformer\Library\metadata\9c\9ca9a97eb0787744baedf8471cbf0c11
+      projectPath: Library\metadata\9c\9ca9a97eb0787744baedf8471cbf0c11
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\9c\9ca9a97eb0787744baedf8471cbf0c11.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\9c\9ca9a97eb0787744baedf8471cbf0c11.info
+      projectPath: Library\metadata\9c\9ca9a97eb0787744baedf8471cbf0c11.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+      fullPath: D:\Project\2D-Platformer\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+      projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
+      projectPath: Library\metadata\a0\a0ded7adcc817ce489fec07977f16d13.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a1\a1a19d9ad69f93f46b15a3cd722e50d8
+      fullPath: D:\Project\2D-Platformer\Library\metadata\a1\a1a19d9ad69f93f46b15a3cd722e50d8
+      projectPath: Library\metadata\a1\a1a19d9ad69f93f46b15a3cd722e50d8
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a1\a1a19d9ad69f93f46b15a3cd722e50d8.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\a1\a1a19d9ad69f93f46b15a3cd722e50d8.info
+      projectPath: Library\metadata\a1\a1a19d9ad69f93f46b15a3cd722e50d8.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a3\a3b85d8bfd8c07443830ab100cd68a3d
+      fullPath: D:\Project\2D-Platformer\Library\metadata\a3\a3b85d8bfd8c07443830ab100cd68a3d
+      projectPath: Library\metadata\a3\a3b85d8bfd8c07443830ab100cd68a3d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a3\a3b85d8bfd8c07443830ab100cd68a3d.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\a3\a3b85d8bfd8c07443830ab100cd68a3d.info
+      projectPath: Library\metadata\a3\a3b85d8bfd8c07443830ab100cd68a3d.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a5\a5a3f3df01516b84da6b57f441d2f9ee
+      fullPath: D:\Project\2D-Platformer\Library\metadata\a5\a5a3f3df01516b84da6b57f441d2f9ee
+      projectPath: Library\metadata\a5\a5a3f3df01516b84da6b57f441d2f9ee
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a5\a5a3f3df01516b84da6b57f441d2f9ee.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\a5\a5a3f3df01516b84da6b57f441d2f9ee.info
+      projectPath: Library\metadata\a5\a5a3f3df01516b84da6b57f441d2f9ee.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a7\a7bc623c929a0ac498e9116e5e5140eb
+      fullPath: D:\Project\2D-Platformer\Library\metadata\a7\a7bc623c929a0ac498e9116e5e5140eb
+      projectPath: Library\metadata\a7\a7bc623c929a0ac498e9116e5e5140eb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a7\a7bc623c929a0ac498e9116e5e5140eb.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\a7\a7bc623c929a0ac498e9116e5e5140eb.info
+      projectPath: Library\metadata\a7\a7bc623c929a0ac498e9116e5e5140eb.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+      fullPath: D:\Project\2D-Platformer\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+      projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+      projectPath: Library\metadata\a8\a83159a46d87d2a4f8cec651049b9231.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ac\ac2511bda7d5c2b46b07aeff3dd4c7e9
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ac\ac2511bda7d5c2b46b07aeff3dd4c7e9
+      projectPath: Library\metadata\ac\ac2511bda7d5c2b46b07aeff3dd4c7e9
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ac\ac2511bda7d5c2b46b07aeff3dd4c7e9.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ac\ac2511bda7d5c2b46b07aeff3dd4c7e9.info
+      projectPath: Library\metadata\ac\ac2511bda7d5c2b46b07aeff3dd4c7e9.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\af\af5c12a4c4d2af6459b0be7fa6273619
+      fullPath: D:\Project\2D-Platformer\Library\metadata\af\af5c12a4c4d2af6459b0be7fa6273619
+      projectPath: Library\metadata\af\af5c12a4c4d2af6459b0be7fa6273619
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\af\af5c12a4c4d2af6459b0be7fa6273619.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\af\af5c12a4c4d2af6459b0be7fa6273619.info
+      projectPath: Library\metadata\af\af5c12a4c4d2af6459b0be7fa6273619.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\b1\b1639256ce2b4ef488ef3e0650aa0d34
+      fullPath: D:\Project\2D-Platformer\Library\metadata\b1\b1639256ce2b4ef488ef3e0650aa0d34
+      projectPath: Library\metadata\b1\b1639256ce2b4ef488ef3e0650aa0d34
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\b1\b1639256ce2b4ef488ef3e0650aa0d34.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\b1\b1639256ce2b4ef488ef3e0650aa0d34.info
+      projectPath: Library\metadata\b1\b1639256ce2b4ef488ef3e0650aa0d34.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\b3\b368407754fbe4f1ca713de77ab9a675
+      fullPath: D:\Project\2D-Platformer\Library\metadata\b3\b368407754fbe4f1ca713de77ab9a675
+      projectPath: Library\metadata\b3\b368407754fbe4f1ca713de77ab9a675
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\b3\b368407754fbe4f1ca713de77ab9a675.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\b3\b368407754fbe4f1ca713de77ab9a675.info
+      projectPath: Library\metadata\b3\b368407754fbe4f1ca713de77ab9a675.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\b6\b6123db3642f57445b50716919108002
+      fullPath: D:\Project\2D-Platformer\Library\metadata\b6\b6123db3642f57445b50716919108002
+      projectPath: Library\metadata\b6\b6123db3642f57445b50716919108002
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\b6\b6123db3642f57445b50716919108002.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\b6\b6123db3642f57445b50716919108002.info
+      projectPath: Library\metadata\b6\b6123db3642f57445b50716919108002.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\b9\b9262de655f27e745942b97c427e866a
+      fullPath: D:\Project\2D-Platformer\Library\metadata\b9\b9262de655f27e745942b97c427e866a
+      projectPath: Library\metadata\b9\b9262de655f27e745942b97c427e866a
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\b9\b9262de655f27e745942b97c427e866a.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\b9\b9262de655f27e745942b97c427e866a.info
+      projectPath: Library\metadata\b9\b9262de655f27e745942b97c427e866a.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\c0\c000a2af43b7f49bb81125a2e23953e3
+      fullPath: D:\Project\2D-Platformer\Library\metadata\c0\c000a2af43b7f49bb81125a2e23953e3
+      projectPath: Library\metadata\c0\c000a2af43b7f49bb81125a2e23953e3
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\c0\c000a2af43b7f49bb81125a2e23953e3.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\c0\c000a2af43b7f49bb81125a2e23953e3.info
+      projectPath: Library\metadata\c0\c000a2af43b7f49bb81125a2e23953e3.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\c5\c552f7cd03bd525468486418dcf02f61
+      fullPath: D:\Project\2D-Platformer\Library\metadata\c5\c552f7cd03bd525468486418dcf02f61
+      projectPath: Library\metadata\c5\c552f7cd03bd525468486418dcf02f61
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\c5\c552f7cd03bd525468486418dcf02f61.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\c5\c552f7cd03bd525468486418dcf02f61.info
+      projectPath: Library\metadata\c5\c552f7cd03bd525468486418dcf02f61.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+      fullPath: D:\Project\2D-Platformer\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+      projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+      projectPath: Library\metadata\c5\c5c83d14802e712408f23409f3c59e26.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      fullPath: D:\Project\2D-Platformer\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+      projectPath: Library\metadata\c7\c743ae24ee231884887054d20ccdd0ae.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\c9\c96780d81e827bf48916a8406ca0a52b
+      fullPath: D:\Project\2D-Platformer\Library\metadata\c9\c96780d81e827bf48916a8406ca0a52b
+      projectPath: Library\metadata\c9\c96780d81e827bf48916a8406ca0a52b
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\c9\c96780d81e827bf48916a8406ca0a52b.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\c9\c96780d81e827bf48916a8406ca0a52b.info
+      projectPath: Library\metadata\c9\c96780d81e827bf48916a8406ca0a52b.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+      projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
+      projectPath: Library\metadata\ca\cad92998c5182496e8b989b406d9f156.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ce\ce61b25f016a7a54fb83d98f12039710
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ce\ce61b25f016a7a54fb83d98f12039710
+      projectPath: Library\metadata\ce\ce61b25f016a7a54fb83d98f12039710
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ce\ce61b25f016a7a54fb83d98f12039710.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ce\ce61b25f016a7a54fb83d98f12039710.info
+      projectPath: Library\metadata\ce\ce61b25f016a7a54fb83d98f12039710.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\cf\cf9f89427bde7774b95a9c855ddce39f
+      fullPath: D:\Project\2D-Platformer\Library\metadata\cf\cf9f89427bde7774b95a9c855ddce39f
+      projectPath: Library\metadata\cf\cf9f89427bde7774b95a9c855ddce39f
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\cf\cf9f89427bde7774b95a9c855ddce39f.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\cf\cf9f89427bde7774b95a9c855ddce39f.info
+      projectPath: Library\metadata\cf\cf9f89427bde7774b95a9c855ddce39f.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d0\d08ec5d491a2f9e4c81fe077da0e2804
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d0\d08ec5d491a2f9e4c81fe077da0e2804
+      projectPath: Library\metadata\d0\d08ec5d491a2f9e4c81fe077da0e2804
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d0\d08ec5d491a2f9e4c81fe077da0e2804.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d0\d08ec5d491a2f9e4c81fe077da0e2804.info
+      projectPath: Library\metadata\d0\d08ec5d491a2f9e4c81fe077da0e2804.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d1\d1a07ce06f8cf4a4ab08076c18b04e71
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d1\d1a07ce06f8cf4a4ab08076c18b04e71
+      projectPath: Library\metadata\d1\d1a07ce06f8cf4a4ab08076c18b04e71
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d1\d1a07ce06f8cf4a4ab08076c18b04e71.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d1\d1a07ce06f8cf4a4ab08076c18b04e71.info
+      projectPath: Library\metadata\d1\d1a07ce06f8cf4a4ab08076c18b04e71.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d1\d1b3aa9c8777f4a4cadbfe8a68cdb27c
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d1\d1b3aa9c8777f4a4cadbfe8a68cdb27c
+      projectPath: Library\metadata\d1\d1b3aa9c8777f4a4cadbfe8a68cdb27c
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d1\d1b3aa9c8777f4a4cadbfe8a68cdb27c.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d1\d1b3aa9c8777f4a4cadbfe8a68cdb27c.info
+      projectPath: Library\metadata\d1\d1b3aa9c8777f4a4cadbfe8a68cdb27c.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d4\d4313a99eb0074614a5749441ad8f54d
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d4\d4313a99eb0074614a5749441ad8f54d
+      projectPath: Library\metadata\d4\d4313a99eb0074614a5749441ad8f54d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d4\d4313a99eb0074614a5749441ad8f54d.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d4\d4313a99eb0074614a5749441ad8f54d.info
+      projectPath: Library\metadata\d4\d4313a99eb0074614a5749441ad8f54d.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+      projectPath: Library\metadata\d5\d516f2a1bec6a9645a084ef8c9237132.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      projectPath: Library\metadata\d6\d601ecb6855bb432bae2aa49d8fd82e8.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d8\d893e85b751554741ad676a29557c266
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d8\d893e85b751554741ad676a29557c266
+      projectPath: Library\metadata\d8\d893e85b751554741ad676a29557c266
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d8\d893e85b751554741ad676a29557c266.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\d8\d893e85b751554741ad676a29557c266.info
+      projectPath: Library\metadata\d8\d893e85b751554741ad676a29557c266.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\da\da48107e6a5da99408fc648ff5aabf3e
+      fullPath: D:\Project\2D-Platformer\Library\metadata\da\da48107e6a5da99408fc648ff5aabf3e
+      projectPath: Library\metadata\da\da48107e6a5da99408fc648ff5aabf3e
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\da\da48107e6a5da99408fc648ff5aabf3e.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\da\da48107e6a5da99408fc648ff5aabf3e.info
+      projectPath: Library\metadata\da\da48107e6a5da99408fc648ff5aabf3e.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\db\dbffb41799c5a41108dfd8bbb450839f
+      fullPath: D:\Project\2D-Platformer\Library\metadata\db\dbffb41799c5a41108dfd8bbb450839f
+      projectPath: Library\metadata\db\dbffb41799c5a41108dfd8bbb450839f
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\db\dbffb41799c5a41108dfd8bbb450839f.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\db\dbffb41799c5a41108dfd8bbb450839f.info
+      projectPath: Library\metadata\db\dbffb41799c5a41108dfd8bbb450839f.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\dd\dd6cfa5cdb51253468ecd5bcd32c419d
+      fullPath: D:\Project\2D-Platformer\Library\metadata\dd\dd6cfa5cdb51253468ecd5bcd32c419d
+      projectPath: Library\metadata\dd\dd6cfa5cdb51253468ecd5bcd32c419d
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\dd\dd6cfa5cdb51253468ecd5bcd32c419d.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\dd\dd6cfa5cdb51253468ecd5bcd32c419d.info
+      projectPath: Library\metadata\dd\dd6cfa5cdb51253468ecd5bcd32c419d.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      fullPath: D:\Project\2D-Platformer\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+      projectPath: Library\metadata\dd\ddb8611e748af425a82a497ac5a98c0c.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\df\df14f80036ba64d4aa9e680c57770ea0
+      fullPath: D:\Project\2D-Platformer\Library\metadata\df\df14f80036ba64d4aa9e680c57770ea0
+      projectPath: Library\metadata\df\df14f80036ba64d4aa9e680c57770ea0
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\df\df14f80036ba64d4aa9e680c57770ea0.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\df\df14f80036ba64d4aa9e680c57770ea0.info
+      projectPath: Library\metadata\df\df14f80036ba64d4aa9e680c57770ea0.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\e2\e25b0dccef8a240cab85732bac8274ec
+      fullPath: D:\Project\2D-Platformer\Library\metadata\e2\e25b0dccef8a240cab85732bac8274ec
+      projectPath: Library\metadata\e2\e25b0dccef8a240cab85732bac8274ec
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\e2\e25b0dccef8a240cab85732bac8274ec.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\e2\e25b0dccef8a240cab85732bac8274ec.info
+      projectPath: Library\metadata\e2\e25b0dccef8a240cab85732bac8274ec.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\e4\e4a63cfead95d824faa1f4c3f48b135f
+      fullPath: D:\Project\2D-Platformer\Library\metadata\e4\e4a63cfead95d824faa1f4c3f48b135f
+      projectPath: Library\metadata\e4\e4a63cfead95d824faa1f4c3f48b135f
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\e4\e4a63cfead95d824faa1f4c3f48b135f.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\e4\e4a63cfead95d824faa1f4c3f48b135f.info
+      projectPath: Library\metadata\e4\e4a63cfead95d824faa1f4c3f48b135f.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\e8\e8b4e31e102e97749ae484395c4a4de6
+      fullPath: D:\Project\2D-Platformer\Library\metadata\e8\e8b4e31e102e97749ae484395c4a4de6
+      projectPath: Library\metadata\e8\e8b4e31e102e97749ae484395c4a4de6
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\e8\e8b4e31e102e97749ae484395c4a4de6.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\e8\e8b4e31e102e97749ae484395c4a4de6.info
+      projectPath: Library\metadata\e8\e8b4e31e102e97749ae484395c4a4de6.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\e9\e904a4447a8a44af9800d6f46c8736d3
+      fullPath: D:\Project\2D-Platformer\Library\metadata\e9\e904a4447a8a44af9800d6f46c8736d3
+      projectPath: Library\metadata\e9\e904a4447a8a44af9800d6f46c8736d3
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\e9\e904a4447a8a44af9800d6f46c8736d3.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\e9\e904a4447a8a44af9800d6f46c8736d3.info
+      projectPath: Library\metadata\e9\e904a4447a8a44af9800d6f46c8736d3.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\eb\eb18c854130ed4d81b6b25fae2598e71
+      fullPath: D:\Project\2D-Platformer\Library\metadata\eb\eb18c854130ed4d81b6b25fae2598e71
+      projectPath: Library\metadata\eb\eb18c854130ed4d81b6b25fae2598e71
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\eb\eb18c854130ed4d81b6b25fae2598e71.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\eb\eb18c854130ed4d81b6b25fae2598e71.info
+      projectPath: Library\metadata\eb\eb18c854130ed4d81b6b25fae2598e71.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ec\ec91856ffdb9b554aa61973c6de52321
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ec\ec91856ffdb9b554aa61973c6de52321
+      projectPath: Library\metadata\ec\ec91856ffdb9b554aa61973c6de52321
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ec\ec91856ffdb9b554aa61973c6de52321.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ec\ec91856ffdb9b554aa61973c6de52321.info
+      projectPath: Library\metadata\ec\ec91856ffdb9b554aa61973c6de52321.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395
+      projectPath: Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395.info
+      projectPath: Library\metadata\ec\ecfb28d906a32914d956497c8d3b3395.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ef\ef6f2116aeb9361469ae951f7037cfb9
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ef\ef6f2116aeb9361469ae951f7037cfb9
+      projectPath: Library\metadata\ef\ef6f2116aeb9361469ae951f7037cfb9
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ef\ef6f2116aeb9361469ae951f7037cfb9.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ef\ef6f2116aeb9361469ae951f7037cfb9.info
+      projectPath: Library\metadata\ef\ef6f2116aeb9361469ae951f7037cfb9.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ef\efa181783119249138b151b2f7c70dbd
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ef\efa181783119249138b151b2f7c70dbd
+      projectPath: Library\metadata\ef\efa181783119249138b151b2f7c70dbd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ef\efa181783119249138b151b2f7c70dbd.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\ef\efa181783119249138b151b2f7c70dbd.info
+      projectPath: Library\metadata\ef\efa181783119249138b151b2f7c70dbd.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\f4\f488ae9901665444aba2019c9bd260fa
+      fullPath: D:\Project\2D-Platformer\Library\metadata\f4\f488ae9901665444aba2019c9bd260fa
+      projectPath: Library\metadata\f4\f488ae9901665444aba2019c9bd260fa
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\f4\f488ae9901665444aba2019c9bd260fa.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\f4\f488ae9901665444aba2019c9bd260fa.info
+      projectPath: Library\metadata\f4\f488ae9901665444aba2019c9bd260fa.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\f5\f53b95084fb00444499b84fa2e9af7b5
+      fullPath: D:\Project\2D-Platformer\Library\metadata\f5\f53b95084fb00444499b84fa2e9af7b5
+      projectPath: Library\metadata\f5\f53b95084fb00444499b84fa2e9af7b5
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\f5\f53b95084fb00444499b84fa2e9af7b5.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\f5\f53b95084fb00444499b84fa2e9af7b5.info
+      projectPath: Library\metadata\f5\f53b95084fb00444499b84fa2e9af7b5.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      fullPath: D:\Project\2D-Platformer\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      projectPath: Library\metadata\f8\f81094832d834c64d93b198cb16b6a3e.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\f8\f89bb2ae32e844acea2d4f965ffaafd9
+      fullPath: D:\Project\2D-Platformer\Library\metadata\f8\f89bb2ae32e844acea2d4f965ffaafd9
+      projectPath: Library\metadata\f8\f89bb2ae32e844acea2d4f965ffaafd9
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\f8\f89bb2ae32e844acea2d4f965ffaafd9.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\f8\f89bb2ae32e844acea2d4f965ffaafd9.info
+      projectPath: Library\metadata\f8\f89bb2ae32e844acea2d4f965ffaafd9.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      fullPath: D:\Project\2D-Platformer\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+      projectPath: Library\metadata\f9\f9fc9b08ecd899944adf9860b4abd6b6.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+      fullPath: D:\Project\2D-Platformer\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+      projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
+      fullPath: D:\Project\2D-Platformer\Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
+      projectPath: Library\metadata\fe\fe5abeadcbe591e4fa9107fbc02f3998.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: D:\Project\2D-Platformer\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: D:\Project\2D-Platformer\Library\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: D:\Project\2D-Platformer\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: D:\Project\2D-Platformer\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: D:\Project\2D-Platformer\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: D:\Project\2D-Platformer\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\CoreCompileInputs.cache
+      fullPath: D:\Project\2D-Platformer\obj\Debug\CoreCompileInputs.cache
+      projectPath: obj\Debug\CoreCompileInputs.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: D:\Project\2D-Platformer\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 87c207e9037c346fc94abfc5733f8cc876aeeb18
     mergeA: 
     mergeB: 
