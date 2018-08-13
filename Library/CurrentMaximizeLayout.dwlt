@@ -22,7 +22,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 5088
+  controlID: 6011
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 5089
+  controlID: 6012
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 5090
+  controlID: 6013
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 5091
+  controlID: 6014
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,9 +222,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3a84fdff
-    m_LastClickedID: -162758
-    m_ExpandedIDs: 4e89fdffbe94fdffca9cfdff82a7fdff3ab2fdff54c0fdffdccafdff2eb8fffff0fbffff00000000
+    m_SelectedIDs: aa71fcff
+    m_LastClickedID: -233046
+    m_ExpandedIDs: a47efcffceb2fcff52dcfcffb200fdff4e89fdffbe94fdffca9cfdff82a7fdff3ab2fdff54c0fdffdccafdff2eb8fffff0fbffff00000000f8bd00001cbe00004ad5000064d50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -302,14 +302,14 @@ MonoBehaviour:
     height: 655
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 38.18005615046946
+  lastFramingTime: 1661.8304176333631
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.042374, y: 3.3931177, z: -0.010408433}
+    m_Target: {x: -6.2859592, y: 3.145647, z: -0.001953125}
     speed: 2
-    m_Value: {x: -9.042374, y: 3.3931177, z: -0.010408433}
+    m_Value: {x: -6.2859592, y: 3.145647, z: -0.001953125}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -341,9 +341,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.3776455
+    m_Target: 14.373321
     speed: 2
-    m_Value: 4.3776455
+    m_Value: 14.373321
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -635,20 +635,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/Prefabs/Grass
   m_ViewMode: 1
   m_StartGridSize: 50
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Prefabs/Grass
   m_LastFoldersGridSize: 50
   m_LastProjectPath: D:\Project\2D-Platformer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 91}
-    m_SelectedIDs: 102b0000
-    m_LastClickedID: 11024
-    m_ExpandedIDs: 000000001c2a0000c22a0000882b000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 235}
+    m_SelectedIDs: 5e340000
+    m_LastClickedID: 13406
+    m_ExpandedIDs: 000000001c2a0000c22a0000882b0000762f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -676,7 +676,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c2a0000c22a0000882b000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000001c2a0000c22a0000882b0000762f000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -701,9 +701,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 3a84fdff
-    m_LastClickedInstanceID: -162758
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: aa71fcff
+    m_LastClickedInstanceID: -233046
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 4e2200007c22000096f8ffffc42d0000521bffffa42400002625000060250000c6230000be24000046360000f42a000098ebf3ffbef2f8ff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -759,7 +759,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -162758
+  m_LastSelectedObjectID: -220646
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -956,10 +956,10 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -1201,7 +1201,7 @@ MonoBehaviour:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 5
     lastLocksChangedEvent:
-      updatedTimeString: 2018-08-12T19:51:03.669-05:00
+      updatedTimeString: 2018-08-12T20:01:31.345-05:00
       cacheType: 6
   historyView:
     currentLogHasUpdate: 0
@@ -52650,10 +52650,10 @@ MonoBehaviour:
     updatedTimeString: 2018-08-12T19:31:25.366-05:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-08-12T19:31:24.017-05:00
+    updatedTimeString: 2018-08-12T20:01:10.599-05:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-08-12T19:31:27.723-05:00
+    updatedTimeString: 2018-08-12T20:01:10.575-05:00
     cacheType: 5
   pullButtonContent:
     m_Text: Pull
@@ -52671,7 +52671,7 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 1
-  repositoryProgressMessage: Listing changed files...
-  appManagerProgressValue: 0.8
-  appManagerProgressMessage: Initializing repository...
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 0
+  appManagerProgressMessage: 

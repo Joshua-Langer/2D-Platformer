@@ -12,9 +12,525 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-12T16:26:31.642-05:00
-  initializedAtString: 2018-08-12T15:20:39.439-05:00
+  lastUpdatedAtString: 2018-08-12T19:58:28.823-05:00
+  initializedAtString: 2018-08-12T19:58:28.823-05:00
   log:
+  - commitID: a5e4c346065fcbb19fdfb755a0efa5be564f75a6
+    mergeA: 
+    mergeB: 
+    authorName: behistun
+    authorEmail: jrl15b@acu.edu
+    commitEmail: jrl15b@acu.edu
+    commitName: behistun
+    summary: Player Character Actual
+    description: "Player Character Actual\r\n\r\nAdded Wizard Player Character"
+    timeString: 2018-08-12T19:57:45.000-05:00
+    commitTimeString: 2018-08-12T19:57:45.000-05:00
+    changes:
+    - path: .vs\2D-Platformer\v15\.suo
+      fullPath: D:\Project\2D-Platformer\.vs\2D-Platformer\v15\.suo
+      projectPath: .vs\2D-Platformer\v15\.suo
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: D:\Project\2D-Platformer\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Animation\Enemies.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies.meta
+      projectPath: Assets\Animation\Enemies.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Enemies\Enemy1.controller
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies\Enemy1.controller
+      projectPath: Assets\Animation\Enemies\Enemy1.controller
+      originalPath: Assets\Animation\Enemy1.controller
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Enemies\Enemy1.controller.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies\Enemy1.controller.meta
+      projectPath: Assets\Animation\Enemies\Enemy1.controller.meta
+      originalPath: Assets\Animation\Enemy1.controller.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Enemies\Enemy2.controller
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies\Enemy2.controller
+      projectPath: Assets\Animation\Enemies\Enemy2.controller
+      originalPath: Assets\Animation\Enemy2.controller
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Enemies\Enemy2.controller.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies\Enemy2.controller.meta
+      projectPath: Assets\Animation\Enemies\Enemy2.controller.meta
+      originalPath: Assets\Animation\Enemy2.controller.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Enemies\Enemy3Attack.controller
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies\Enemy3Attack.controller
+      projectPath: Assets\Animation\Enemies\Enemy3Attack.controller
+      originalPath: Assets\Animation\Enemy3Attack.controller
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Enemies\Enemy3Attack.controller.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies\Enemy3Attack.controller.meta
+      projectPath: Assets\Animation\Enemies\Enemy3Attack.controller.meta
+      originalPath: Assets\Animation\Enemy3Attack.controller.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Enemies\mouseMove.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies\mouseMove.anim
+      projectPath: Assets\Animation\Enemies\mouseMove.anim
+      originalPath: Assets\Animation\mouseMove.anim
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Enemies\mouseMove.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies\mouseMove.anim.meta
+      projectPath: Assets\Animation\Enemies\mouseMove.anim.meta
+      originalPath: Assets\Animation\mouseMove.anim.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Enemies\sawMove.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies\sawMove.anim
+      projectPath: Assets\Animation\Enemies\sawMove.anim
+      originalPath: Assets\Animation\sawMove.anim
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Enemies\sawMove.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies\sawMove.anim.meta
+      projectPath: Assets\Animation\Enemies\sawMove.anim.meta
+      originalPath: Assets\Animation\sawMove.anim.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Enemies\stationaryEnemyAttack.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies\stationaryEnemyAttack.anim
+      projectPath: Assets\Animation\Enemies\stationaryEnemyAttack.anim
+      originalPath: Assets\Animation\stationaryEnemyAttack.anim
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Enemies\stationaryEnemyAttack.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Enemies\stationaryEnemyAttack.anim.meta
+      projectPath: Assets\Animation\Enemies\stationaryEnemyAttack.anim.meta
+      originalPath: Assets\Animation\stationaryEnemyAttack.anim.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Global.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Global.meta
+      projectPath: Assets\Animation\Global.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Global\GameOverText.controller
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Global\GameOverText.controller
+      projectPath: Assets\Animation\Global\GameOverText.controller
+      originalPath: Assets\Animation\GameOverText.controller
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Global\GameOverText.controller.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Global\GameOverText.controller.meta
+      projectPath: Assets\Animation\Global\GameOverText.controller.meta
+      originalPath: Assets\Animation\GameOverText.controller.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Global\gameOverAnim.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Global\gameOverAnim.anim
+      projectPath: Assets\Animation\Global\gameOverAnim.anim
+      originalPath: Assets\Animation\gameOverAnim.anim
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Global\gameOverAnim.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Global\gameOverAnim.anim.meta
+      projectPath: Assets\Animation\Global\gameOverAnim.anim.meta
+      originalPath: Assets\Animation\gameOverAnim.anim.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Old Player.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player.meta
+      projectPath: Assets\Animation\Old Player.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Old Player\Character.controller
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player\Character.controller
+      projectPath: Assets\Animation\Old Player\Character.controller
+      originalPath: Assets\Animation\Character.controller
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Old Player\Character.controller.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player\Character.controller.meta
+      projectPath: Assets\Animation\Old Player\Character.controller.meta
+      originalPath: Assets\Animation\Character.controller.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Old Player\idle.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player\idle.anim
+      projectPath: Assets\Animation\Old Player\idle.anim
+      originalPath: Assets\Animation\idle.anim
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Old Player\idle.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player\idle.anim.meta
+      projectPath: Assets\Animation\Old Player\idle.anim.meta
+      originalPath: Assets\Animation\idle.anim.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Old Player\playerFall.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player\playerFall.anim
+      projectPath: Assets\Animation\Old Player\playerFall.anim
+      originalPath: Assets\Animation\playerFall.anim
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Old Player\playerFall.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player\playerFall.anim.meta
+      projectPath: Assets\Animation\Old Player\playerFall.anim.meta
+      originalPath: Assets\Animation\playerFall.anim.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Old Player\playerJump.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player\playerJump.anim
+      projectPath: Assets\Animation\Old Player\playerJump.anim
+      originalPath: Assets\Animation\playerJump.anim
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Old Player\playerJump.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player\playerJump.anim.meta
+      projectPath: Assets\Animation\Old Player\playerJump.anim.meta
+      originalPath: Assets\Animation\playerJump.anim.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Old Player\playerLand.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player\playerLand.anim
+      projectPath: Assets\Animation\Old Player\playerLand.anim
+      originalPath: Assets\Animation\playerLand.anim
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Old Player\playerLand.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player\playerLand.anim.meta
+      projectPath: Assets\Animation\Old Player\playerLand.anim.meta
+      originalPath: Assets\Animation\playerLand.anim.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Old Player\playerMove.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player\playerMove.anim
+      projectPath: Assets\Animation\Old Player\playerMove.anim
+      originalPath: Assets\Animation\playerMove.anim
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Old Player\playerMove.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Old Player\playerMove.anim.meta
+      projectPath: Assets\Animation\Old Player\playerMove.anim.meta
+      originalPath: Assets\Animation\playerMove.anim.meta
+      status: 6
+      staged: 0
+    - path: Assets\Animation\Player.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player.meta
+      projectPath: Assets\Animation\Player.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Player\WizardPlayer1.controller
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player\WizardPlayer1.controller
+      projectPath: Assets\Animation\Player\WizardPlayer1.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Player\WizardPlayer1.controller.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player\WizardPlayer1.controller.meta
+      projectPath: Assets\Animation\Player\WizardPlayer1.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Player\playerFall.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player\playerFall.anim
+      projectPath: Assets\Animation\Player\playerFall.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Player\playerFall.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player\playerFall.anim.meta
+      projectPath: Assets\Animation\Player\playerFall.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Player\playerIdle.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player\playerIdle.anim
+      projectPath: Assets\Animation\Player\playerIdle.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Player\playerIdle.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player\playerIdle.anim.meta
+      projectPath: Assets\Animation\Player\playerIdle.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Player\playerJump.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player\playerJump.anim
+      projectPath: Assets\Animation\Player\playerJump.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Player\playerJump.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player\playerJump.anim.meta
+      projectPath: Assets\Animation\Player\playerJump.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Player\playerLand.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player\playerLand.anim
+      projectPath: Assets\Animation\Player\playerLand.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Player\playerLand.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player\playerLand.anim.meta
+      projectPath: Assets\Animation\Player\playerLand.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Player\playerRun.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player\playerRun.anim
+      projectPath: Assets\Animation\Player\playerRun.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Animation\Player\playerRun.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Animation\Player\playerRun.anim.meta
+      projectPath: Assets\Animation\Player\playerRun.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Players\Old.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Players\Old.meta
+      projectPath: Assets\Prefabs\Players\Old.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Players\Old\Character.prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Players\Old\Character.prefab
+      projectPath: Assets\Prefabs\Players\Old\Character.prefab
+      originalPath: Assets\Prefabs\Players\Character.prefab
+      status: 6
+      staged: 0
+    - path: Assets\Prefabs\Players\Old\Character.prefab.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Players\Old\Character.prefab.meta
+      projectPath: Assets\Prefabs\Players\Old\Character.prefab.meta
+      originalPath: Assets\Prefabs\Players\Character.prefab.meta
+      status: 6
+      staged: 0
+    - path: Assets\Prefabs\Players\PlayerCharacter.prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Players\PlayerCharacter.prefab
+      projectPath: Assets\Prefabs\Players\PlayerCharacter.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Players\PlayerCharacter.prefab.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Players\PlayerCharacter.prefab.meta
+      projectPath: Assets\Prefabs\Players\PlayerCharacter.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Projectile\ArcaneShotPH.prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Projectile\ArcaneShotPH.prefab
+      projectPath: Assets\Prefabs\Projectile\ArcaneShotPH.prefab
+      originalPath: Assets\Prefabs\Projectile\Projectile.prefab
+      status: 6
+      staged: 0
+    - path: Assets\Prefabs\Projectile\ArcaneShotPH.prefab.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Projectile\ArcaneShotPH.prefab.meta
+      projectPath: Assets\Prefabs\Projectile\ArcaneShotPH.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Projectile\FireBall.prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Projectile\FireBall.prefab
+      projectPath: Assets\Prefabs\Projectile\FireBall.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Projectile\FireBall.prefab.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Projectile\FireBall.prefab.meta
+      projectPath: Assets\Prefabs\Projectile\FireBall.prefab.meta
+      originalPath: Assets\Prefabs\Projectile\Projectile.prefab.meta
+      status: 6
+      staged: 0
+    - path: Assets\Prefabs\Projectile\IceShardPH.prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Projectile\IceShardPH.prefab
+      projectPath: Assets\Prefabs\Projectile\IceShardPH.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Prefabs\Projectile\IceShardPH.prefab.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Projectile\IceShardPH.prefab.meta
+      projectPath: Assets\Prefabs\Projectile\IceShardPH.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scenes\Level1.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level2.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level2.unity
+      projectPath: Assets\Scenes\Level2.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level3.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level3.unity
+      projectPath: Assets\Scenes\Level3.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level4.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level4.unity
+      projectPath: Assets\Scenes\Level4.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\MainMenu.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\MainMenu.unity
+      projectPath: Assets\Scenes\MainMenu.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\TestArea.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\TestArea.unity
+      projectPath: Assets\Scenes\TestArea.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\enemy\enemyHealth.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\enemy\enemyHealth.cs
+      projectPath: Assets\Scripts\enemy\enemyHealth.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\player\playerController.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\player\playerController.cs
+      projectPath: Assets\Scripts\player\playerController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\projectile\FireBallDamage.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\projectile\FireBallDamage.cs
+      projectPath: Assets\Scripts\projectile\FireBallDamage.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\projectile\FireBallDamage.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\projectile\FireBallDamage.cs.meta
+      projectPath: Assets\Scripts\projectile\FireBallDamage.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\projectile\IceShardDamage.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\projectile\IceShardDamage.cs
+      projectPath: Assets\Scripts\projectile\IceShardDamage.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\projectile\IceShardDamage.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\projectile\IceShardDamage.cs.meta
+      projectPath: Assets\Scripts\projectile\IceShardDamage.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\projectile\projectileDamage.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\projectile\projectileDamage.cs
+      projectPath: Assets\Scripts\projectile\projectileDamage.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\idle_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\idle_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard\idle_2.png
+      originalPath: Assets\Sprites\WizardPC\wizard\dle_2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\idle_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\idle_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\idle_2.png.meta
+      originalPath: Assets\Sprites\WizardPC\wizard\dle_2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\playerAttack.anim
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\playerAttack.anim
+      projectPath: Assets\Sprites\WizardPC\wizard\playerAttack.anim
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\playerAttack.anim.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\playerAttack.anim.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\playerAttack.anim.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\CurrentMaximizeLayout.dwlt
+      fullPath: D:\Project\2D-Platformer\Library\CurrentMaximizeLayout.dwlt
+      projectPath: Library\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\EditorInstance.json
+      fullPath: D:\Project\2D-Platformer\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: D:\Project\2D-Platformer\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Project\2D-Platformer\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: d2850534e84ebb03e8e42c5ea3b89167d6e518b0
     mergeA: 
     mergeB: 
