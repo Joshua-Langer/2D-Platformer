@@ -72,6 +72,8 @@
      <Compile Include="Assets\Scripts\player\playerAudio.cs" />
      <Compile Include="Assets\Scripts\player\playerController.cs" />
      <Compile Include="Assets\Scripts\player\playerHealth.cs" />
+     <Compile Include="Assets\Scripts\projectile\FireBallDamage.cs" />
+     <Compile Include="Assets\Scripts\projectile\IceShardDamage.cs" />
      <Compile Include="Assets\Scripts\projectile\projectileController.cs" />
      <Compile Include="Assets\Scripts\projectile\projectileDamage.cs" />
      <Compile Include="Assets\Scripts\VersionEditor\VersionInformation.cs" />

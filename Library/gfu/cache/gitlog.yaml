@@ -12,9 +12,2943 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-12T15:20:39.439-05:00
+  lastUpdatedAtString: 2018-08-12T16:26:31.642-05:00
   initializedAtString: 2018-08-12T15:20:39.439-05:00
   log:
+  - commitID: d2850534e84ebb03e8e42c5ea3b89167d6e518b0
+    mergeA: 
+    mergeB: 
+    authorName: behistun
+    authorEmail: jrl15b@acu.edu
+    commitEmail: jrl15b@acu.edu
+    commitName: behistun
+    summary: Game Manager Added
+    description: "Game Manager Added\r\n\r\nGame Manager added for each level and
+      configured to work with playerHealth variable to determine gamestate."
+    timeString: 2018-08-12T16:26:03.000-05:00
+    commitTimeString: 2018-08-12T16:26:03.000-05:00
+    changes:
+    - path: .vs\2D-Platformer\v15\.suo
+      fullPath: D:\Project\2D-Platformer\.vs\2D-Platformer\v15\.suo
+      projectPath: .vs\2D-Platformer\v15\.suo
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: D:\Project\2D-Platformer\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Global\GameManager.prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Global\GameManager.prefab
+      projectPath: Assets\Prefabs\Global\GameManager.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Global\signExit.prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Global\signExit.prefab
+      projectPath: Assets\Prefabs\Global\signExit.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level1.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level2.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level2.unity
+      projectPath: Assets\Scenes\Level2.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level3.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level3.unity
+      projectPath: Assets\Scenes\Level3.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level4.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level4.unity
+      projectPath: Assets\Scenes\Level4.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Global\ExitLevel.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\Global\ExitLevel.cs
+      projectPath: Assets\Scripts\Global\ExitLevel.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Global\GameManager.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\Global\GameManager.cs
+      projectPath: Assets\Scripts\Global\GameManager.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Global\GameManager.cs.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\Global\GameManager.cs.meta
+      projectPath: Assets\Scripts\Global\GameManager.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Scripts\Global\GarbageRemoval.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\Global\GarbageRemoval.cs
+      projectPath: Assets\Scripts\Global\GarbageRemoval.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Global\MainMenu.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\Global\MainMenu.cs
+      projectPath: Assets\Scripts\Global\MainMenu.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Global\RestartGame.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\Global\RestartGame.cs
+      projectPath: Assets\Scripts\Global\RestartGame.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\Global\UIManager.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\Global\UIManager.cs
+      projectPath: Assets\Scripts\Global\UIManager.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\VersionEditor\VersionInformation.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\VersionEditor\VersionInformation.cs
+      projectPath: Assets\Scripts\VersionEditor\VersionInformation.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\enemy\enemyMovementController.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\enemy\enemyMovementController.cs
+      projectPath: Assets\Scripts\enemy\enemyMovementController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\player\playerAudio.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\player\playerAudio.cs
+      projectPath: Assets\Scripts\player\playerAudio.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\player\playerController.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\player\playerController.cs
+      projectPath: Assets\Scripts\player\playerController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scripts\player\playerHealth.cs
+      fullPath: D:\Project\2D-Platformer\Assets\Scripts\player\playerHealth.cs
+      projectPath: Assets\Scripts\player\playerHealth.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Sprites\Placeholder.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder.meta
+      projectPath: Assets\Sprites\Placeholder.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players.meta
+      projectPath: Assets\Sprites\Placeholder\Players.meta
+      originalPath: Assets\Sprites\Players.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256.meta
+      originalPath: Assets\Sprites\Players\128x256.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige.meta
+      originalPath: Assets\Sprites\Players\128x256\Beige.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_climb1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_climb1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_climb1.png
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_climb1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_climb1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_climb1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_climb1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_climb1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_climb2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_climb2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_climb2.png
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_climb2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_climb2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_climb2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_climb2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_climb2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_duck.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_duck.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_duck.png
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_duck.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_duck.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_duck.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_duck.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_duck.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_front.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_front.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_front.png
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_front.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_front.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_front.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_front.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_front.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_hit.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_hit.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_hit.png
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_hit.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_hit.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_hit.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_hit.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_hit.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_jump.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_jump.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_jump.png
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_jump.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_jump.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_jump.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_jump.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_jump.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_stand.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_stand.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_stand.png
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_stand.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_stand.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_stand.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_stand.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_stand.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_swim1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_swim1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_swim1.png
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_swim1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_swim1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_swim1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_swim1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_swim1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_swim2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_swim2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_swim2.png
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_swim2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_swim2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_swim2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_swim2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_swim2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_walk1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_walk1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_walk1.png
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_walk1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_walk1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_walk1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_walk1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_walk1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_walk2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_walk2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_walk2.png
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_walk2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_walk2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_walk2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Beige\alienBeige_walk2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Beige\alienBeige_walk2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue.meta
+      originalPath: Assets\Sprites\Players\128x256\Blue.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_climb1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_climb1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_climb1.png
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_climb1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_climb1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_climb1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_climb1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_climb1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_climb2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_climb2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_climb2.png
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_climb2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_climb2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_climb2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_climb2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_climb2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_duck.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_duck.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_duck.png
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_duck.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_duck.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_duck.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_duck.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_duck.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_front.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_front.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_front.png
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_front.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_front.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_front.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_front.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_front.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_hit.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_hit.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_hit.png
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_hit.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_hit.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_hit.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_hit.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_hit.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_jump.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_jump.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_jump.png
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_jump.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_jump.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_jump.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_jump.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_jump.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_stand.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_stand.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_stand.png
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_stand.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_stand.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_stand.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_stand.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_stand.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_swim1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_swim1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_swim1.png
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_swim1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_swim1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_swim1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_swim1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_swim1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_swim2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_swim2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_swim2.png
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_swim2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_swim2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_swim2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_swim2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_swim2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_walk1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_walk1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_walk1.png
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_walk1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_walk1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_walk1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_walk1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_walk1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_walk2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_walk2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_walk2.png
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_walk2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_walk2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_walk2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Blue\alienBlue_walk2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Blue\alienBlue_walk2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green.meta
+      originalPath: Assets\Sprites\Players\128x256\Green.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_climb1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_climb1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_climb1.png
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_climb1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_climb1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_climb1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_climb1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_climb1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_climb2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_climb2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_climb2.png
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_climb2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_climb2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_climb2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_climb2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_climb2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_duck.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_duck.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_duck.png
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_duck.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_duck.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_duck.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_duck.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_duck.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_front.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_front.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_front.png
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_front.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_front.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_front.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_front.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_front.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_hit.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_hit.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_hit.png
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_hit.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_hit.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_hit.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_hit.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_hit.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_jump.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_jump.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_jump.png
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_jump.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_jump.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_jump.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_jump.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_jump.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_stand.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_stand.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_stand.png
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_stand.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_stand.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_stand.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_stand.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_stand.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_swim1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_swim1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_swim1.png
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_swim1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_swim1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_swim1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_swim1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_swim1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_swim2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_swim2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_swim2.png
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_swim2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_swim2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_swim2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_swim2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_swim2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_walk1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_walk1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_walk1.png
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_walk1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_walk1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_walk1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_walk1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_walk1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_walk2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_walk2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_walk2.png
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_walk2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_walk2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_walk2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Green\alienGreen_walk2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Green\alienGreen_walk2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink.meta
+      originalPath: Assets\Sprites\Players\128x256\Pink.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_climb1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_climb1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_climb1.png
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_climb1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_climb1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_climb1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_climb1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_climb1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_climb2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_climb2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_climb2.png
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_climb2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_climb2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_climb2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_climb2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_climb2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_duck.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_duck.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_duck.png
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_duck.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_duck.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_duck.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_duck.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_duck.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_front.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_front.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_front.png
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_front.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_front.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_front.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_front.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_front.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_hit.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_hit.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_hit.png
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_hit.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_hit.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_hit.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_hit.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_hit.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_jump.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_jump.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_jump.png
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_jump.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_jump.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_jump.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_jump.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_jump.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_stand.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_stand.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_stand.png
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_stand.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_stand.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_stand.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_stand.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_stand.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_swim1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_swim1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_swim1.png
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_swim1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_swim1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_swim1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_swim1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_swim1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_swim2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_swim2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_swim2.png
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_swim2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_swim2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_swim2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_swim2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_swim2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_walk1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_walk1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_walk1.png
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_walk1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_walk1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_walk1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_walk1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_walk1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_walk2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_walk2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_walk2.png
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_walk2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_walk2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_walk2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Pink\alienPink_walk2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Pink\alienPink_walk2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow.meta
+      originalPath: Assets\Sprites\Players\128x256\Yellow.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_climb1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_climb1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_climb1.png
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_climb1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_climb1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_climb1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_climb1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_climb1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_climb2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_climb2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_climb2.png
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_climb2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_climb2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_climb2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_climb2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_climb2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_duck.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_duck.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_duck.png
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_duck.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_duck.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_duck.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_duck.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_duck.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_front.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_front.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_front.png
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_front.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_front.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_front.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_front.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_front.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_hit.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_hit.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_hit.png
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_hit.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_hit.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_hit.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_hit.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_hit.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_jump.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_jump.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_jump.png
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_jump.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_jump.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_jump.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_jump.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_jump.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_stand.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_stand.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_stand.png
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_stand.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_stand.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_stand.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_stand.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_stand.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_swim1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_swim1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_swim1.png
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_swim1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_swim1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_swim1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_swim1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_swim1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_swim2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_swim2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_swim2.png
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_swim2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_swim2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_swim2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_swim2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_swim2.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_walk1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_walk1.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_walk1.png
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_walk1.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_walk1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_walk1.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_walk1.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_walk1.png.meta
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_walk2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_walk2.png
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_walk2.png
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_walk2.png
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_walk2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_walk2.png.meta
+      projectPath: Assets\Sprites\Placeholder\Players\128x256\Yellow\alienYellow_walk2.png.meta
+      originalPath: Assets\Sprites\Players\128x256\Yellow\alienYellow_walk2.png.meta
+      status: 6
+      staged: 0
+    - path: "sizes.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable sizes.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes.meta"
+      projectPath: "sizes.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable sizes.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable sizes\\Beige.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige.meta"
+      projectPath: "sizes\\Beige.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_climb1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_climb1.png"
+      projectPath: "sizes\\Beige\\alienBiege_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_climb1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_climb1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_climb1.png.meta"
+      projectPath: "sizes\\Beige\\alienBiege_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_climb1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_climb2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_climb2.png"
+      projectPath: "sizes\\Beige\\alienBiege_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_climb2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_climb2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_climb2.png.meta"
+      projectPath: "sizes\\Beige\\alienBiege_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_climb2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_duck.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_duck.png"
+      projectPath: "sizes\\Beige\\alienBiege_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_duck.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_duck.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_duck.png.meta"
+      projectPath: "sizes\\Beige\\alienBiege_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_duck.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_front.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_front.png"
+      projectPath: "sizes\\Beige\\alienBiege_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_front.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_front.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_front.png.meta"
+      projectPath: "sizes\\Beige\\alienBiege_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_front.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_hit.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_hit.png"
+      projectPath: "sizes\\Beige\\alienBiege_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_hit.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_hit.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_hit.png.meta"
+      projectPath: "sizes\\Beige\\alienBiege_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_hit.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_jump.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_jump.png"
+      projectPath: "sizes\\Beige\\alienBiege_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_jump.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_jump.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_jump.png.meta"
+      projectPath: "sizes\\Beige\\alienBiege_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_jump.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_stand.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_stand.png"
+      projectPath: "sizes\\Beige\\alienBiege_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_stand.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_stand.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_stand.png.meta"
+      projectPath: "sizes\\Beige\\alienBiege_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_stand.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_swim1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_swim1.png"
+      projectPath: "sizes\\Beige\\alienBiege_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_swim1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_swim1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_swim1.png.meta"
+      projectPath: "sizes\\Beige\\alienBiege_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_swim1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_swim2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_swim2.png"
+      projectPath: "sizes\\Beige\\alienBiege_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_swim2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_swim2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_swim2.png.meta"
+      projectPath: "sizes\\Beige\\alienBiege_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_swim2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_walk1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_walk1.png"
+      projectPath: "sizes\\Beige\\alienBiege_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_walk1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_walk1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_walk1.png.meta"
+      projectPath: "sizes\\Beige\\alienBiege_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_walk1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_walk2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_walk2.png"
+      projectPath: "sizes\\Beige\\alienBiege_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_walk2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Beige\\alienBiege_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_walk2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Beige\\alienBiege_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_walk2.png.meta"
+      projectPath: "sizes\\Beige\\alienBiege_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Beige\\alienBiege_walk2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable sizes\\Blue.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue.meta"
+      projectPath: "sizes\\Blue.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_climb1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_climb1.png"
+      projectPath: "sizes\\Blue\\alienBlue_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_climb1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_climb1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_climb1.png.meta"
+      projectPath: "sizes\\Blue\\alienBlue_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_climb1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_climb2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_climb2.png"
+      projectPath: "sizes\\Blue\\alienBlue_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_climb2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_climb2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_climb2.png.meta"
+      projectPath: "sizes\\Blue\\alienBlue_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_climb2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_duck.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_duck.png"
+      projectPath: "sizes\\Blue\\alienBlue_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_duck.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_duck.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_duck.png.meta"
+      projectPath: "sizes\\Blue\\alienBlue_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_duck.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_front.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_front.png"
+      projectPath: "sizes\\Blue\\alienBlue_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_front.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_front.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_front.png.meta"
+      projectPath: "sizes\\Blue\\alienBlue_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_front.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_hit.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_hit.png"
+      projectPath: "sizes\\Blue\\alienBlue_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_hit.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_hit.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_hit.png.meta"
+      projectPath: "sizes\\Blue\\alienBlue_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_hit.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_jump.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_jump.png"
+      projectPath: "sizes\\Blue\\alienBlue_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_jump.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_jump.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_jump.png.meta"
+      projectPath: "sizes\\Blue\\alienBlue_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_jump.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_stand.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_stand.png"
+      projectPath: "sizes\\Blue\\alienBlue_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_stand.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_stand.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_stand.png.meta"
+      projectPath: "sizes\\Blue\\alienBlue_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_stand.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_swim1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_swim1.png"
+      projectPath: "sizes\\Blue\\alienBlue_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_swim1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_swim1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_swim1.png.meta"
+      projectPath: "sizes\\Blue\\alienBlue_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_swim1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_swim2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_swim2.png"
+      projectPath: "sizes\\Blue\\alienBlue_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_swim2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_swim2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_swim2.png.meta"
+      projectPath: "sizes\\Blue\\alienBlue_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_swim2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_walk1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_walk1.png"
+      projectPath: "sizes\\Blue\\alienBlue_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_walk1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_walk1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_walk1.png.meta"
+      projectPath: "sizes\\Blue\\alienBlue_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_walk1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_walk2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_walk2.png"
+      projectPath: "sizes\\Blue\\alienBlue_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_walk2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Blue\\alienBlue_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_walk2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Blue\\alienBlue_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_walk2.png.meta"
+      projectPath: "sizes\\Blue\\alienBlue_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Blue\\alienBlue_walk2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable sizes\\Green.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green.meta"
+      projectPath: "sizes\\Green.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_climb1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_climb1.png"
+      projectPath: "sizes\\Green\\alienGreen_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_climb1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_climb1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_climb1.png.meta"
+      projectPath: "sizes\\Green\\alienGreen_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_climb1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_climb2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_climb2.png"
+      projectPath: "sizes\\Green\\alienGreen_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_climb2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_climb2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_climb2.png.meta"
+      projectPath: "sizes\\Green\\alienGreen_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_climb2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_duck.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_duck.png"
+      projectPath: "sizes\\Green\\alienGreen_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_duck.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_duck.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_duck.png.meta"
+      projectPath: "sizes\\Green\\alienGreen_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_duck.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_front.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_front.png"
+      projectPath: "sizes\\Green\\alienGreen_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_front.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_front.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_front.png.meta"
+      projectPath: "sizes\\Green\\alienGreen_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_front.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_hit.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_hit.png"
+      projectPath: "sizes\\Green\\alienGreen_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_hit.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_hit.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_hit.png.meta"
+      projectPath: "sizes\\Green\\alienGreen_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_hit.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_jump.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_jump.png"
+      projectPath: "sizes\\Green\\alienGreen_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_jump.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_jump.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_jump.png.meta"
+      projectPath: "sizes\\Green\\alienGreen_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_jump.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_stand.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_stand.png"
+      projectPath: "sizes\\Green\\alienGreen_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_stand.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_stand.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_stand.png.meta"
+      projectPath: "sizes\\Green\\alienGreen_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_stand.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_swim1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_swim1.png"
+      projectPath: "sizes\\Green\\alienGreen_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_swim1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_swim1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_swim1.png.meta"
+      projectPath: "sizes\\Green\\alienGreen_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_swim1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_swim2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_swim2.png"
+      projectPath: "sizes\\Green\\alienGreen_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_swim2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_swim2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_swim2.png.meta"
+      projectPath: "sizes\\Green\\alienGreen_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_swim2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_walk1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_walk1.png"
+      projectPath: "sizes\\Green\\alienGreen_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_walk1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_walk1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_walk1.png.meta"
+      projectPath: "sizes\\Green\\alienGreen_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_walk1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_walk2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_walk2.png"
+      projectPath: "sizes\\Green\\alienGreen_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_walk2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Green\\alienGreen_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_walk2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Green\\alienGreen_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_walk2.png.meta"
+      projectPath: "sizes\\Green\\alienGreen_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Green\\alienGreen_walk2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable sizes\\Pink.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink.meta"
+      projectPath: "sizes\\Pink.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_climb1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_climb1.png"
+      projectPath: "sizes\\Pink\\alienPink_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_climb1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_climb1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_climb1.png.meta"
+      projectPath: "sizes\\Pink\\alienPink_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_climb1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_climb2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_climb2.png"
+      projectPath: "sizes\\Pink\\alienPink_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_climb2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_climb2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_climb2.png.meta"
+      projectPath: "sizes\\Pink\\alienPink_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_climb2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_duck.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_duck.png"
+      projectPath: "sizes\\Pink\\alienPink_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_duck.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_duck.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_duck.png.meta"
+      projectPath: "sizes\\Pink\\alienPink_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_duck.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_front.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_front.png"
+      projectPath: "sizes\\Pink\\alienPink_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_front.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_front.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_front.png.meta"
+      projectPath: "sizes\\Pink\\alienPink_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_front.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_hit.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_hit.png"
+      projectPath: "sizes\\Pink\\alienPink_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_hit.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_hit.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_hit.png.meta"
+      projectPath: "sizes\\Pink\\alienPink_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_hit.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_jump.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_jump.png"
+      projectPath: "sizes\\Pink\\alienPink_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_jump.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_jump.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_jump.png.meta"
+      projectPath: "sizes\\Pink\\alienPink_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_jump.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_stand.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_stand.png"
+      projectPath: "sizes\\Pink\\alienPink_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_stand.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_stand.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_stand.png.meta"
+      projectPath: "sizes\\Pink\\alienPink_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_stand.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_swim1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_swim1.png"
+      projectPath: "sizes\\Pink\\alienPink_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_swim1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_swim1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_swim1.png.meta"
+      projectPath: "sizes\\Pink\\alienPink_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_swim1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_swim2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_swim2.png"
+      projectPath: "sizes\\Pink\\alienPink_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_swim2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_swim2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_swim2.png.meta"
+      projectPath: "sizes\\Pink\\alienPink_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_swim2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_walk1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_walk1.png"
+      projectPath: "sizes\\Pink\\alienPink_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_walk1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_walk1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_walk1.png.meta"
+      projectPath: "sizes\\Pink\\alienPink_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_walk1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_walk2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_walk2.png"
+      projectPath: "sizes\\Pink\\alienPink_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_walk2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Pink\\alienPink_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_walk2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Pink\\alienPink_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_walk2.png.meta"
+      projectPath: "sizes\\Pink\\alienPink_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Pink\\alienPink_walk2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable sizes\\Yellow.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow.meta"
+      projectPath: "sizes\\Yellow.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_climb1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_climb1.png"
+      projectPath: "sizes\\Yellow\\alienYellow_climb1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_climb1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_climb1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_climb1.png.meta"
+      projectPath: "sizes\\Yellow\\alienYellow_climb1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_climb1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_climb2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_climb2.png"
+      projectPath: "sizes\\Yellow\\alienYellow_climb2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_climb2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_climb2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_climb2.png.meta"
+      projectPath: "sizes\\Yellow\\alienYellow_climb2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_climb2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_duck.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_duck.png"
+      projectPath: "sizes\\Yellow\\alienYellow_duck.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_duck.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_duck.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_duck.png.meta"
+      projectPath: "sizes\\Yellow\\alienYellow_duck.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_duck.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_front.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_front.png"
+      projectPath: "sizes\\Yellow\\alienYellow_front.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_front.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_front.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_front.png.meta"
+      projectPath: "sizes\\Yellow\\alienYellow_front.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_front.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_hit.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_hit.png"
+      projectPath: "sizes\\Yellow\\alienYellow_hit.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_hit.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_hit.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_hit.png.meta"
+      projectPath: "sizes\\Yellow\\alienYellow_hit.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_hit.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_jump.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_jump.png"
+      projectPath: "sizes\\Yellow\\alienYellow_jump.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_jump.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_jump.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_jump.png.meta"
+      projectPath: "sizes\\Yellow\\alienYellow_jump.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_jump.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_stand.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_stand.png"
+      projectPath: "sizes\\Yellow\\alienYellow_stand.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_stand.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_stand.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_stand.png.meta"
+      projectPath: "sizes\\Yellow\\alienYellow_stand.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_stand.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_swim1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_swim1.png"
+      projectPath: "sizes\\Yellow\\alienYellow_swim1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_swim1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_swim1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_swim1.png.meta"
+      projectPath: "sizes\\Yellow\\alienYellow_swim1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_swim1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_swim2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_swim2.png"
+      projectPath: "sizes\\Yellow\\alienYellow_swim2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_swim2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_swim2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_swim2.png.meta"
+      projectPath: "sizes\\Yellow\\alienYellow_swim2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_swim2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_walk1.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_walk1.png"
+      projectPath: "sizes\\Yellow\\alienYellow_walk1.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_walk1.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_walk1.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_walk1.png.meta"
+      projectPath: "sizes\\Yellow\\alienYellow_walk1.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_walk1.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_walk2.png"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_walk2.png"
+      projectPath: "sizes\\Yellow\\alienYellow_walk2.png\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_walk2.png"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: "sizes\\Yellow\\alienYellow_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_walk2.png.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\sizes\\Yellow\\alienYellow_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_walk2.png.meta"
+      projectPath: "sizes\\Yellow\\alienYellow_walk2.png.meta\tAssets\\Sprites\\Placeholder\\Players\\Variable
+        sizes\\Yellow\\alienYellow_walk2.png.meta"
+      originalPath: Assets\Sprites\Players\Variable
+      status: 6
+      staged: 0
+    - path: Assets\Sprites\WizardPC.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC.meta
+      projectPath: Assets\Sprites\WizardPC.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard.meta
+      projectPath: Assets\Sprites\WizardPC\wizard.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\Thumbs.db
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\Thumbs.db
+      projectPath: Assets\Sprites\WizardPC\wizard\Thumbs.db
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\Thumbs.db.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\Thumbs.db.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\Thumbs.db.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\attack_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\attack_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard\attack_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\attack_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\attack_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\attack_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\attack_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\attack_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard\attack_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\attack_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\attack_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\attack_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\attack_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\attack_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard\attack_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\attack_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\attack_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\attack_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\dead_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\dead_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard\dead_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\dead_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\dead_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\dead_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\dead_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\dead_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard\dead_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\dead_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\dead_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\dead_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\dead_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\dead_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard\dead_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\dead_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\dead_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\dead_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\dead_4.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\dead_4.png
+      projectPath: Assets\Sprites\WizardPC\wizard\dead_4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\dead_4.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\dead_4.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\dead_4.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\dle_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\dle_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard\dle_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\dle_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\dle_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\dle_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\hurt_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\hurt_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard\hurt_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\hurt_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\hurt_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\hurt_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\hurt_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\hurt_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard\hurt_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\hurt_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\hurt_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\hurt_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\hurt_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\hurt_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard\hurt_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\hurt_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\hurt_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\hurt_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\idle_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\idle_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard\idle_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\idle_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\idle_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\idle_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\idle_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\idle_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard\idle_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\idle_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\idle_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\idle_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\idle_4.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\idle_4.png
+      projectPath: Assets\Sprites\WizardPC\wizard\idle_4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\idle_4.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\idle_4.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\idle_4.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\jump_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\jump_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard\jump_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\jump_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\jump_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\jump_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\jump_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\jump_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard\jump_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\jump_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\jump_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\jump_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\jump_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\jump_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard\jump_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\jump_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\jump_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\jump_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\run_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\run_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard\run_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\run_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\run_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\run_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\run_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\run_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard\run_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\run_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\run_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\run_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\run_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\run_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard\run_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\run_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\run_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\run_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\run_4.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\run_4.png
+      projectPath: Assets\Sprites\WizardPC\wizard\run_4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\run_4.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\run_4.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\run_4.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\walk_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\walk_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard\walk_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\walk_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\walk_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\walk_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\walk_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\walk_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard\walk_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\walk_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\walk_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\walk_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\walk_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\walk_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard\walk_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\walk_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\walk_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\walk_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\walk_4.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\walk_4.png
+      projectPath: Assets\Sprites\WizardPC\wizard\walk_4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard\walk_4.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard\walk_4.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard\walk_4.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\Thumbs.db
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\Thumbs.db
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\Thumbs.db
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\Thumbs.db.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\Thumbs.db.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\Thumbs.db.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\attack_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\attack_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\attack_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\attack_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\attack_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\attack_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\attack_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\attack_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\attack_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\attack_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\attack_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\attack_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\attack_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\attack_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\attack_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\attack_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\attack_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\attack_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\dead_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\dead_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\dead_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\dead_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\dead_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\dead_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\dead_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\dead_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\dead_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\dead_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\dead_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\dead_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\dead_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\dead_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\dead_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\dead_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\dead_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\dead_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\dead_4.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\dead_4.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\dead_4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\dead_4.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\dead_4.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\dead_4.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\hurt_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\hurt_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\hurt_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\hurt_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\hurt_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\hurt_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\hurt_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\hurt_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\hurt_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\hurt_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\hurt_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\hurt_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\hurt_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\hurt_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\hurt_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\hurt_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\hurt_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\hurt_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\idle_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\idle_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\idle_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\idle_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\idle_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\idle_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\idle_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\idle_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\idle_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\idle_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\idle_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\idle_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\idle_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\idle_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\idle_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\idle_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\idle_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\idle_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\idle_4.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\idle_4.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\idle_4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\idle_4.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\idle_4.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\idle_4.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\jump_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\jump_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\jump_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\jump_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\jump_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\jump_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\jump_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\jump_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\jump_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\jump_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\jump_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\jump_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\jump_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\jump_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\jump_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\jump_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\jump_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\jump_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\run_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\run_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\run_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\run_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\run_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\run_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\run_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\run_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\run_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\run_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\run_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\run_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\run_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\run_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\run_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\run_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\run_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\run_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\run_4.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\run_4.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\run_4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\run_4.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\run_4.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\run_4.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\walk_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\walk_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\walk_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\walk_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\walk_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\walk_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\walk_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\walk_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\walk_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\walk_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\walk_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\walk_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\walk_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\walk_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\walk_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\walk_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\walk_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\walk_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\walk_4.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\walk_4.png
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\walk_4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_fire\walk_4.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_fire\walk_4.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_fire\walk_4.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\Thumbs.db
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\Thumbs.db
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\Thumbs.db
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\Thumbs.db.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\Thumbs.db.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\Thumbs.db.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\attack_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\attack_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\attack_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\attack_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\attack_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\attack_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\attack_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\attack_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\attack_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\attack_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\attack_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\attack_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\attack_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\attack_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\attack_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\attack_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\attack_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\attack_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\dead_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\dead_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\dead_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\dead_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\dead_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\dead_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\dead_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\dead_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\dead_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\dead_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\dead_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\dead_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\dead_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\dead_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\dead_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\dead_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\dead_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\dead_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\dead_4.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\dead_4.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\dead_4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\dead_4.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\dead_4.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\dead_4.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\hurt_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\hurt_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\hurt_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\hurt_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\hurt_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\hurt_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\hurt_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\hurt_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\hurt_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\hurt_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\hurt_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\hurt_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\hurt_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\hurt_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\hurt_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\hurt_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\hurt_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\hurt_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\idle_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\idle_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\idle_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\idle_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\idle_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\idle_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\idle_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\idle_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\idle_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\idle_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\idle_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\idle_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\idle_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\idle_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\idle_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\idle_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\idle_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\idle_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\idle_4.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\idle_4.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\idle_4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\idle_4.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\idle_4.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\idle_4.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\jump_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\jump_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\jump_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\jump_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\jump_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\jump_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\jump_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\jump_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\jump_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\jump_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\jump_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\jump_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\jump_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\jump_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\jump_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\jump_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\jump_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\jump_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\run_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\run_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\run_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\run_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\run_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\run_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\run_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\run_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\run_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\run_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\run_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\run_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\run_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\run_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\run_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\run_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\run_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\run_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\run_4.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\run_4.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\run_4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\run_4.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\run_4.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\run_4.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\walk_1.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\walk_1.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\walk_1.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\walk_1.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\walk_1.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\walk_1.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\walk_2.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\walk_2.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\walk_2.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\walk_2.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\walk_2.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\walk_2.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\walk_3.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\walk_3.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\walk_3.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\walk_3.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\walk_3.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\walk_3.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\walk_4.png
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\walk_4.png
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\walk_4.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\Sprites\WizardPC\wizard_ice\walk_4.png.meta
+      fullPath: D:\Project\2D-Platformer\Assets\Sprites\WizardPC\wizard_ice\walk_4.png.meta
+      projectPath: Assets\Sprites\WizardPC\wizard_ice\walk_4.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\VersionEditor\versionsettings.preferences
+      fullPath: D:\Project\2D-Platformer\Assets\VersionEditor\versionsettings.preferences
+      projectPath: Assets\VersionEditor\versionsettings.preferences
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CrashedAssetImports.txt
+      fullPath: D:\Project\2D-Platformer\Library\CrashedAssetImports.txt
+      projectPath: Library\CrashedAssetImports.txt
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: D:\Project\2D-Platformer\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\EditorInstance.json
+      fullPath: D:\Project\2D-Platformer\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: D:\Project\2D-Platformer\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastBuild.buildreport
+      fullPath: D:\Project\2D-Platformer\Library\LastBuild.buildreport
+      projectPath: Library\LastBuild.buildreport
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\LastSceneManagerSetup.txt
+      fullPath: D:\Project\2D-Platformer\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Project\2D-Platformer\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\expandedItems
+      fullPath: D:\Project\2D-Platformer\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 6f641d01ae1ba72cdc1bf3394c94eb8518f87e0f
     mergeA: 
     mergeB: 

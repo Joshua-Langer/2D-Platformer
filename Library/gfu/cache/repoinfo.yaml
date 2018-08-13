@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-08-12T15:08:40.145-05:00
-  initializedAtString: 2018-08-12T15:08:40.145-05:00
+  lastUpdatedAtString: 2018-08-12T19:31:25.366-05:00
+  initializedAtString: 2018-08-12T19:31:25.366-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/behistun/2D-Platformer.git
@@ -34,4 +34,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/behistun/2D-Platformer.git
-  currentHead: 6f641d0
+  currentHead: d285053

@@ -37,7 +37,7 @@ public class projectileDamage : MonoBehaviour {
             if(other.tag == "Enemy")
             {
                 hurtEnemy = other.gameObject.GetComponent<enemyHealth>();
-                hurtEnemy.takeDamage(damage);
+                hurtEnemy.takeDamage(damage, 0);
 
             }
             
@@ -54,12 +54,9 @@ public class projectileDamage : MonoBehaviour {
             if (other.tag == "Enemy")
             {
                 hurtEnemy = other.gameObject.GetComponent<enemyHealth>();
-                hurtEnemy.takeDamage(damage);
+                hurtEnemy.takeDamage(damage, 0);
 
             }
         }
     }
-
-
-
 }

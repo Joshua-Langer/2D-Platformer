@@ -22,12 +22,18 @@ public class playerController : MonoBehaviour {
     projectileDamage PD;
     playerAudio playerSounds;
 
-    //fire vars
+    //attack vars
     public Transform origin;
     public GameObject fireBall;
+    public GameObject iceShard;
+    public GameObject arcaneShot;
     [SerializeField]
     float fireRate = .25f;
     float nextFire = 0f;
+    bool isAttack = false;
+    bool fireActive;
+    bool iceActive;
+    bool arcaneActive;
 
 	// Use this for initialization
 	void Start ()
@@ -36,12 +42,17 @@ public class playerController : MonoBehaviour {
         anim = GetComponent<Animator>();
         facingRight = true;
         playerSounds = GetComponent<playerAudio>();
+        fireActive = false;
+        iceActive = false;
+        arcaneActive = true;
 	}
 	
 	// Always called a specific time
     void Update()
     {
-        if(isGrounded && Input.GetAxis("Jump")>0)
+        SetAttackType();
+
+        if (isGrounded && Input.GetAxis("Jump")>0)
         {
             isGrounded = false;
             anim.SetBool("isGrounded", isGrounded);
@@ -52,7 +63,19 @@ public class playerController : MonoBehaviour {
         //player shoot
         if(Input.GetAxisRaw("Fire1") == 1)
         {
-            throwFireBall();
+            isAttack = true;
+            if (arcaneActive)
+            {
+                StartCoroutine("ArcaneAttack");
+            }
+            else if (iceActive)
+            {
+                StartCoroutine("IceAttack");
+            }
+            else if (fireActive)
+            {
+                StartCoroutine("FireAttack");
+            }
         }
         //Debug.Log(transform.position.x);
     }
@@ -93,20 +116,102 @@ public class playerController : MonoBehaviour {
         transform.localScale = flipScale;
     }
 
-    void throwFireBall()
+    void SetAttackType()
     {
-        if(Time.time >= nextFire)
+        if(Input.GetKey(KeyCode.Alpha1))
+        {
+            arcaneActive = true;
+            fireActive = false;
+            iceActive = false;
+            Debug.Log("Arcane Shot Active");
+        }
+        else if(Input.GetKey(KeyCode.Alpha2))
+        {
+            arcaneActive = false;
+            fireActive = false;
+            iceActive = true;
+            Debug.Log("Ice Shard Active");
+        }
+        else if(Input.GetKey(KeyCode.Alpha3))
+        {
+            arcaneActive = false;
+            fireActive = true;
+            iceActive = false;
+            Debug.Log("Fireball Active");
+        }
+    }
+
+    IEnumerator ArcaneAttack()
+    {
+        Debug.Log("Attack called");
+        if (Time.time >= nextFire)
         {
             nextFire = Time.time + fireRate;
+            yield return new WaitForSeconds(.1f);
+            anim.SetBool("isAttacking", isAttack);
 
             if(facingRight)
             {
-                Instantiate(fireBall, origin.position, Quaternion.Euler (new Vector3(0,0,0)));
+                yield return new WaitForSeconds(.15f);
+                Instantiate(arcaneShot, origin.position, Quaternion.Euler(new Vector3(0, 0, 0)));
             }
             else if (!facingRight)
             {
+                yield return new WaitForSeconds(.15f);
+                Instantiate(arcaneShot, origin.position, Quaternion.Euler(new Vector3(0, 0, 180)));
+            }
+            yield return new WaitForSeconds(.15f);
+            isAttack = false;
+            anim.SetBool("isAttacking", isAttack);
+        }
+    }
+
+    IEnumerator IceAttack()
+    {
+        Debug.Log("Attack called");
+        if (Time.time >= nextFire)
+        {
+            nextFire = Time.time + fireRate;
+            yield return new WaitForSeconds(.1f);
+            anim.SetBool("isAttacking", isAttack);
+
+            if (facingRight)
+            {
+                yield return new WaitForSeconds(.15f);
+                Instantiate(iceShard, origin.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+            }
+            else if (!facingRight)
+            {
+                yield return new WaitForSeconds(.15f);
+                Instantiate(iceShard, origin.position, Quaternion.Euler(new Vector3(0, 0, 180)));
+            }
+            yield return new WaitForSeconds(.15f);
+            isAttack = false;
+            anim.SetBool("isAttacking", isAttack);
+        }
+    }
+    IEnumerator FireAttack()
+    {
+        Debug.Log("Attack called");
+        if (Time.time >= nextFire)
+        {
+            nextFire = Time.time + fireRate;
+            yield return new WaitForSeconds(.1f);
+            anim.SetBool("isAttacking", isAttack);
+
+            if (facingRight)
+            {
+                yield return new WaitForSeconds(.15f);
+                Instantiate(fireBall, origin.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+            }
+            else if (!facingRight)
+            {
+                yield return new WaitForSeconds(.15f);
                 Instantiate(fireBall, origin.position, Quaternion.Euler(new Vector3(0, 0, 180)));
             }
+            yield return new WaitForSeconds(.15f);
+            isAttack = false;
+            anim.SetBool("isAttacking", isAttack);
         }
     }
 }

@@ -28,9 +28,10 @@ public class enemyHealth : MonoBehaviour {
 
     }
 
-    public void takeDamage(float health)
+    public void takeDamage(float health, float time)
     {
         enemyHealthHUD.gameObject.SetActive(true);
+        time = Time.time - time;
         currentHealth -= health;
         enemyHealthHUD.value = currentHealth;
         if (currentHealth <= 0)

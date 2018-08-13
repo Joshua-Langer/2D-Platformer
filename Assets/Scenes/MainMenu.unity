@@ -777,7 +777,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2D Platformer (WIP) (Name TBD)
+  m_Text: Wizard Saves All
 --- !u!222 &1631726623
 CanvasRenderer:
   m_ObjectHideFlags: 0
