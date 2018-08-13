@@ -7,16 +7,9 @@ public class GameMusic : MonoBehaviour {
 
     [SerializeField]
     AudioClip levelMusic;
-    [SerializeField]
-    ulong LevelMusic;
 
     AudioSource gameMusic;
-	// Use this for initialization
-	void Start ()
-    {
-        gameMusic = GetComponent<AudioSource>();
-	}
-	
+    
 	void Awake ()
     {
         GameAudio();	
@@ -24,6 +17,10 @@ public class GameMusic : MonoBehaviour {
 
     void GameAudio()
     {
-        gameMusic.Play(LevelMusic);
+        gameMusic = GetComponent<AudioSource>();
+        gameMusic.clip = levelMusic;
+        gameMusic.volume = .5f;
+        gameMusic.loop = true;
+        gameMusic.Play();
     }
 }

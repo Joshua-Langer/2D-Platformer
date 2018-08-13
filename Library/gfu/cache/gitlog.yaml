@@ -12,9 +12,118 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-12T19:58:28.823-05:00
+  lastUpdatedAtString: 2018-08-12T20:06:36.523-05:00
   initializedAtString: 2018-08-12T19:58:28.823-05:00
   log:
+  - commitID: 14d79d6dad51d250d5b1f6fc0ea9ecfeb6dd9934
+    mergeA: 
+    mergeB: 
+    authorName: behistun
+    authorEmail: jrl15b@acu.edu
+    commitEmail: jrl15b@acu.edu
+    commitName: behistun
+    summary: Start Platform Prefab Rebuilt
+    description: "Start Platform Prefab Rebuilt\r\n\r\nRebuild of Start Platform"
+    timeString: 2018-08-12T20:04:00.000-05:00
+    commitTimeString: 2018-08-12T20:04:00.000-05:00
+    changes:
+    - path: .vs\2D-Platformer\v15\.suo
+      fullPath: D:\Project\2D-Platformer\.vs\2D-Platformer\v15\.suo
+      projectPath: .vs\2D-Platformer\v15\.suo
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Prefabs\Grass\GrassLandStartPlatform 1.prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Grass\GrassLandStartPlatform
+        1.prefab
+      projectPath: Assets\Prefabs\Grass\GrassLandStartPlatform 1.prefab
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Assets\Prefabs\Grass\GrassLandStartPlatform.prefab
+      fullPath: D:\Project\2D-Platformer\Assets\Prefabs\Grass\GrassLandStartPlatform.prefab
+      projectPath: Assets\Prefabs\Grass\GrassLandStartPlatform.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: "1.prefab.meta\tAssets\\Prefabs\\Grass\\GrassLandStartPlatform.prefab.meta"
+      fullPath: "D:\\Project\\2D-Platformer\\1.prefab.meta\tAssets\\Prefabs\\Grass\\GrassLandStartPlatform.prefab.meta"
+      projectPath: "1.prefab.meta\tAssets\\Prefabs\\Grass\\GrassLandStartPlatform.prefab.meta"
+      originalPath: Assets\Prefabs\Grass\GrassLandStartPlatform
+      status: 6
+      staged: 0
+    - path: Assets\Scenes\Level1.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level1.unity
+      projectPath: Assets\Scenes\Level1.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level2.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level2.unity
+      projectPath: Assets\Scenes\Level2.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level3.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level3.unity
+      projectPath: Assets\Scenes\Level3.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Assets\Scenes\Level4.unity
+      fullPath: D:\Project\2D-Platformer\Assets\Scenes\Level4.unity
+      projectPath: Assets\Scenes\Level4.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\CrashedAssetImports.txt
+      fullPath: D:\Project\2D-Platformer\Library\CrashedAssetImports.txt
+      projectPath: Library\CrashedAssetImports.txt
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\CurrentMaximizeLayout.dwlt
+      fullPath: D:\Project\2D-Platformer\Library\CurrentMaximizeLayout.dwlt
+      projectPath: Library\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Project\2D-Platformer\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Project\2D-Platformer\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: a5e4c346065fcbb19fdfb755a0efa5be564f75a6
     mergeA: 
     mergeB: 

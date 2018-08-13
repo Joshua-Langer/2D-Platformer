@@ -23,14 +23,6 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     int WaitingTime;
 
-    
-
-    void Awake()
-    {
-        restartCommand = GetComponent<UIManager>();
-        //exitSign = GameObject.FindGameObjectWithTag("Exit");
-    }
-
     void Update()
     {
         LoseGame();
@@ -58,17 +50,20 @@ public class GameManager : MonoBehaviour
             gameOverAnim.SetTrigger("gameOver");
             StartCoroutine("Restart", WaitingTime);
         }
+        DontDestroyOnLoad(this);
     }
 
     public void NextLevel()
     {
-            WinGame();
+        WinGame();
+        DontDestroyOnLoad(this);
     }
 
     IEnumerator Restart(int waitTime)
     {
         yield return new WaitForSeconds(waitTime);
         SceneManager.LoadScene(0);
+        DontDestroyOnLoad(this);
     }
 
 }
