@@ -59,10 +59,10 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Debug.Log(highestLevel);
-        if (SceneManager.GetActiveScene().buildIndex == 5)
+        if (SceneManager.GetActiveScene().buildIndex == 4)
         {
             Destroy(GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>());
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
             //Debug.Log(instance);
         }
     }
