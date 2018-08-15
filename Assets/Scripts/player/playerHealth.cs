@@ -8,7 +8,6 @@ public class playerHealth : MonoBehaviour {
 
     //public vars
     public float playerMaxHealth;
-    public RestartGame restartGame;
     //public int playerLives;
     public float currentHealth;
 
@@ -17,25 +16,31 @@ public class playerHealth : MonoBehaviour {
     bool isInvulnerable;
     playerAudio playerSounds;
     GameManager GM;
+    PlayerManager PM;
+    UIManager UIMan;
 
-    //HUD Vars
-    public Slider healthHUD;
-    [SerializeField]
-    Text gameOverText;
-    [SerializeField]
-    Text winText;
         
 	// Use this for initialization
 	void Start ()
     {
+        GM = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
+        PM = GameObject.FindGameObjectWithTag("PlayerManager").GetComponent<PlayerManager>();
+        UIMan = GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>();
         currentHealth = playerMaxHealth;
-        healthHUD.maxValue = playerMaxHealth;
-        healthHUD.value = playerMaxHealth;
         isInvulnerable = false;
         playerSounds = GetComponent<playerAudio>();
-        GM = new GameManager();
+        
         //playerLives = 3;
+    }
 
+    void Update()
+    {
+        if(UIMan == null)
+        {
+            UIMan = GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>();
+        }
+        //UIMan.health.text = currentHealth.ToString();
+       // Debug.Log(UIMan);
     }
 	
     public void takeDamage(float damage)
@@ -46,11 +51,13 @@ public class playerHealth : MonoBehaviour {
                 return;
 
             currentHealth -= damage;
-            healthHUD.value = currentHealth;
+            Debug.Log(currentHealth);
+
 
             if (currentHealth <= 0)
             {
                 playerSounds.StartCoroutine("DeathAudio");
+                PM.DisablePlayer();
                 killPlayer();
             }
         }
@@ -61,10 +68,14 @@ public class playerHealth : MonoBehaviour {
         if (regen <= 0)
             return;
         currentHealth += regen;
-        healthHUD.value = currentHealth;
+        Debug.Log(currentHealth);
+
 
         if (currentHealth >= playerMaxHealth)
+        {
             currentHealth = playerMaxHealth;
+            Debug.Log(currentHealth);
+        }
 
     }
 
@@ -83,19 +94,21 @@ public class playerHealth : MonoBehaviour {
 
     public void killPlayer()
     {
-       //Delete this function.
+        gameObject.SetActive(false);
     }
 
     //Clear the health to 0 if falls through Garbage Removal
     public void ZeroHealth()
     {
         currentHealth = 0;
-       // Debug.Log(currentHealth);
+        UIMan.PlayerHealthHUDDamage();
+        Debug.Log(currentHealth);
     }
 
     //Attached Call to GM
     public void Exit()
     {
         GM.NextLevel();
+       // DontDestroyOnLoad(this);
     }
 }

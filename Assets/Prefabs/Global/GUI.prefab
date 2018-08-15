@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 114376524875679826}
   m_Layer: 5
   m_Name: GUI
-  m_TagString: Untagged
+  m_TagString: UI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -618,6 +618,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84d239baa604570418717b602bac314f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverText: {fileID: 114816026201858446}
+  WaitingTime: 7
 --- !u!114 &114393247828752776
 MonoBehaviour:
   m_ObjectHideFlags: 1

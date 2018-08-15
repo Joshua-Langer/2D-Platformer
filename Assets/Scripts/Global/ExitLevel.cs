@@ -12,7 +12,7 @@ public class ExitLevel : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
     {
-       // GM = GetComponent<GameManager>();
+        // GM = GetComponent<GameManager>();
     }
 	
 	// Update is called once per frame

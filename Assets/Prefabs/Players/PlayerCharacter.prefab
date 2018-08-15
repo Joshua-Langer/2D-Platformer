@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 82743442947715768}
   - component: {fileID: 114473200704950544}
   - component: {fileID: 95207740240551542}
+  - component: {fileID: 114290990225360928}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Player
@@ -291,11 +292,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMaxHealth: 50
-  restartGame: {fileID: 0}
   currentHealth: 0
-  healthHUD: {fileID: 0}
-  gameOverText: {fileID: 0}
-  winText: {fileID: 0}
+--- !u!114 &114290990225360928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1978213190554692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7629d92d9e0a16499d5d67c491f427d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerDead: 0
 --- !u!114 &114473200704950544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -326,7 +335,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   groundCheck: {fileID: 4903946840969252}
-  jumpHeight: 75
+  jumpHeight: 85
   origin: {fileID: 4526887971318856}
   fireBall: {fileID: 1647293404798680, guid: ff4c550a0b89afa48980b19ebbfac6a2, type: 2}
   iceShard: {fileID: 1647293404798680, guid: d6497dd0820e9c148b056825f4e4979c, type: 2}

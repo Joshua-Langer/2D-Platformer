@@ -4,44 +4,52 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.VersionEditor {
+
     public class MainMenu : MonoBehaviour
     {
-        //vars
-        [SerializeField]
-        Text versionText;
+    //vars
+    [HideInInspector]
+    public bool StartGamePress;
 
         //Main Menu scene control system
 
         void Start()
         {
-            VersionText();
+        //VersionText();
+        
+        StartGamePress = false;
         }
 
 
-        public void StartGame()
-        {
-            SceneManager.LoadScene(1); //temp, will eventually load a scene that generates the level map. Currently loads the test level.
-            Debug.Log("Loading temp scene");
-        }
+    public void StartGame()
+    {
+        StartGamePress = true;
+        SceneManager.LoadScene(1); //temp, will eventually load a scene that generates the level map. Currently loads the test level.
+        //Debug.Log("Loading temp scene");
+    }
 
         public void QuitGame()
         {
             Application.Quit();
-            Debug.Log("Quit the Game");
+           //Debug.Log("Quit the Game");
         }
 
         public void NewGameExtra()
         {
-            SceneManager.LoadScene(13);
-            Debug.Log("For NewGame +");
+        Debug.Log("If player has beat all worlds and is save in JSON load the NG scenes");
+          //Debug.Log("For NewGame +");
         }
-
+    /*
         void VersionText()
         {
-            Debug.Log("Version Text Display");
-            versionText.text = VersionInformation.ToString();
+            //Debug.Log("Version Text Display");
+            versionText.text =("Game Version " + VersionInformation.ToString() + " Pre-Alpha");
         }
+*/
 
+        public void LoadGame()
+    {
+        Debug.Log("Highest Level Completed: " + PlayerPrefs.GetInt("highestLevel"));
     }
 }
+

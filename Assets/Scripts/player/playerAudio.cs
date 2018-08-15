@@ -12,14 +12,9 @@ public class playerAudio : MonoBehaviour {
 
     AudioSource sounds;
 
-  
-   
-
-
-
     public IEnumerator JumpAudio()
     {
-        Debug.Log("Called JumpAudio from Player Controller");
+        //Debug.Log("Called JumpAudio from Player Controller");
         sounds = GetComponent<AudioSource>();
         yield return new WaitForSeconds(0);
         sounds.clip = jump;
@@ -28,7 +23,7 @@ public class playerAudio : MonoBehaviour {
 
     public IEnumerator DeathAudio()
     {
-        Debug.Log("Called DeathAudio from PlayerHealth");
+        //Debug.Log("Called DeathAudio from PlayerHealth");
         sounds = GetComponent<AudioSource>();
         yield return new WaitForSeconds(0.5f);
         sounds.clip = death;

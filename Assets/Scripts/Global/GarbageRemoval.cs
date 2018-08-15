@@ -8,10 +8,12 @@ public class GarbageRemoval : MonoBehaviour {
 
     //private vars
     playerHealth PH;
+    PlayerManager PM;
     
     // Use this for initialization
-	void Start () {
-		
+	void Start ()
+    {
+        PM = GameObject.FindGameObjectWithTag("PlayerManager").GetComponent<PlayerManager>();	
 	}
 	
 	// Update is called once per frame
@@ -26,7 +28,8 @@ public class GarbageRemoval : MonoBehaviour {
         {
             PH = other.GetComponent<playerHealth>();
             PH.ZeroHealth();
-            //PH.killPlayer();
+            PH.killPlayer();
+            PM.DisablePlayer();
         }
         else
             Destroy(other.gameObject);

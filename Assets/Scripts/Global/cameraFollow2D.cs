@@ -8,6 +8,7 @@ public class cameraFollow2D : MonoBehaviour {
     public Transform target; //what is being followed
     public float smoothing; //keep it from being jagged
 
+
     //private vars
     Vector3 offset;
     float lowY;
@@ -17,6 +18,7 @@ public class cameraFollow2D : MonoBehaviour {
     {
         offset = transform.position - target.position;
         lowY = transform.position.y;
+        target = GameObject.FindGameObjectWithTag("Player").transform;
 	}
 	
 	void FixedUpdate ()

@@ -10,60 +10,109 @@ public class GameManager : MonoBehaviour
 
     //public vars
     public static GameManager instance = null; //other other objects to access the game manager.
+    public int highestLevel = 0;
 
     //private vars
-    [SerializeField]
-    playerHealth Player;
-    [SerializeField]
+    PlayerManager playerManager;
     UIManager restartCommand;
-    [SerializeField]
-    Text gameOverText;
-    //meObject exitSign;
     Scene activeScene;
-    [SerializeField]
-    int WaitingTime;
+    public int levelCompleted;
+    UIManager userInterfaceCommand;
+    float restartTimer;
+    MainMenu menu;
+    int previousScene;
+    bool sceneChange;
+    
+    
+
+    void Start()
+    {
+        levelCompleted = 0;
+        DontDestroyOnLoad(gameObject);
+        //userInterfaceCommand = GameObject.FindGameObjectWithTag("UI").GetComponent<UIManager>();
+        userInterfaceCommand = FindObjectOfType<UIManager>();
+        playerManager = FindObjectOfType<PlayerManager>();
+        menu = GameObject.FindGameObjectWithTag("Menu").GetComponent<MainMenu>();
+        restartTimer = Time.time + 5.5f;
+        sceneChange = false;
+        Debug.Log("Game Manager Loaded");
+    }
+
 
     void Update()
     {
-        LoseGame();
+        if (!playerManager.isActiveAndEnabled)
+            LoseGame();
+        if (userInterfaceCommand == null && playerManager == null)
+        {
+            
+            sceneChange = true;
+            userInterfaceCommand = FindObjectOfType<UIManager>();
+            playerManager = FindObjectOfType<PlayerManager>();
+            
+        }
+        
+
     }
 
-    //TODO: Move This
     public void WinGame()
     {
-        //Animator winAnim = winText.GetComponent<Animator>();
-        //winAnim.SetTrigger("gameOver");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        if (SceneManager.GetActiveScene().buildIndex == 4)
+        Debug.Log(highestLevel);
+        if (SceneManager.GetActiveScene().buildIndex == 5)
         {
-            SceneManager.LoadScene(0);
+            Destroy(GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>());
+            SceneManager.LoadScene(1);
+            //Debug.Log(instance);
         }
     }
 
-    //TODO: Move this to Game Conditions Script
     public void LoseGame()
     {
-        if (Player.GetComponent<playerHealth>().currentHealth == 0)
-        {
-            //Call animator for Game Over
-            Animator gameOverAnim = gameOverText.GetComponent<Animator>();
-            gameOverAnim.SetTrigger("gameOver");
-            StartCoroutine("Restart", WaitingTime);
-        }
-        DontDestroyOnLoad(this);
+        SubmitHighLevel(levelCompleted);
+        userInterfaceCommand.StartCoroutine("GameOverScreen");
+        Debug.Log("Game Can Restart");
+        StartCoroutine("Restart", restartTimer);
+       
     }
 
     public void NextLevel()
     {
         WinGame();
+        levelCompleted++;
+        Debug.Log(levelCompleted + " level is/are completed");
         DontDestroyOnLoad(this);
     }
 
-    IEnumerator Restart(int waitTime)
+    public IEnumerator Restart(int waitTime)
     {
+        //Debug.Log("Called this when player died. Time to restart: " + waitTime);
         yield return new WaitForSeconds(waitTime);
         SceneManager.LoadScene(0);
-        DontDestroyOnLoad(this);
+        Destroy(this);
     }
 
+    void SubmitHighLevel(int level)
+    {
+        if(level > highestLevel)
+        {
+            highestLevel = level;
+            Save();
+        }
+    }
+
+    public int GetHighLevel()
+    {
+        return highestLevel;
+    }
+
+    void Save()
+    {
+        PlayerPrefs.SetInt("highestLevel", highestLevel);
+    }
+
+    public void Load()
+    {
+        PlayerPrefs.GetInt("highestLevel");
+    }
 }

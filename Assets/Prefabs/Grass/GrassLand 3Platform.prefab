@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4714932802075276}
   - component: {fileID: 212285286179096000}
-  - component: {fileID: 61923275108691930}
   m_Layer: 8
   m_Name: grassMid
   m_TagString: Untagged
@@ -36,7 +35,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4352275049975766}
-  m_Layer: 0
+  - component: {fileID: 61217792674375726}
+  m_Layer: 8
   m_Name: GrassLand 3Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +52,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4338552815594922}
   - component: {fileID: 212770736140309112}
-  - component: {fileID: 61008643840472498}
   m_Layer: 8
   m_Name: grassRight
   m_TagString: Untagged
@@ -69,7 +68,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4699425392776530}
   - component: {fileID: 212628616588008806}
-  - component: {fileID: 61609991321537186}
   m_Layer: 8
   m_Name: grassLeft
   m_TagString: Untagged
@@ -97,7 +95,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1189234145117160}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.02, y: -2.81, z: 0}
+  m_LocalPosition: {x: -181.7302, y: -110.209465, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4699425392776530}
@@ -132,80 +130,30 @@ Transform:
   m_Father: {fileID: 4352275049975766}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61008643840472498
+--- !u!61 &61217792674375726
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1244119129580142}
+  m_GameObject: {fileID: 1189234145117160}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.025213957}
+  m_Offset: {x: -3.814186, y: -0.79255676}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.28}
-    newSize: {x: 1.28, y: 1.28}
-    adaptiveTilingThreshold: 0.5
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.28, y: 1.229572}
-  m_EdgeRadius: 0
---- !u!61 &61609991321537186
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1774323678197492}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.025214195}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.28}
-    newSize: {x: 1.28, y: 1.28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.28, y: 1.2295716}
-  m_EdgeRadius: 0
---- !u!61 &61923275108691930
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1089231475003874}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.025213957}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.28}
-    newSize: {x: 1.28, y: 1.28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.28, y: 1.229572}
+  m_Size: {x: 3.793808, y: 1.1981506}
   m_EdgeRadius: 0
 --- !u!212 &212285286179096000
 SpriteRenderer:

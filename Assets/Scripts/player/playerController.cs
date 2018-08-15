@@ -143,7 +143,7 @@ public class playerController : MonoBehaviour {
 
     IEnumerator ArcaneAttack()
     {
-        Debug.Log("Attack called");
+        //Debug.Log("Attack called");
         if (Time.time >= nextFire)
         {
             nextFire = Time.time + fireRate;
@@ -168,7 +168,7 @@ public class playerController : MonoBehaviour {
 
     IEnumerator IceAttack()
     {
-        Debug.Log("Attack called");
+        //Debug.Log("Attack called");
         if (Time.time >= nextFire)
         {
             nextFire = Time.time + fireRate;
@@ -192,7 +192,7 @@ public class playerController : MonoBehaviour {
     }
     IEnumerator FireAttack()
     {
-        Debug.Log("Attack called");
+        //Debug.Log("Attack called");
         if (Time.time >= nextFire)
         {
             nextFire = Time.time + fireRate;
