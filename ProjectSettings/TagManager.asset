@@ -7,6 +7,13 @@ TagManager:
   - Enemy
   - Powerup
   - ShowOnPause
+  - Tag
+  - Exit
+  - GM
+  - UI
+  - PlayerManager
+  - Menu
+  - Spawn
   layers:
   - Default
   - TransparentFX
