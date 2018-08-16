@@ -10,7 +10,7 @@ public class healthPowerup : MonoBehaviour
     public float health;
 
     //private vars
-    playerHealth PHP;
+    PlayerMan playerMan;
     
     // Use this for initialization
 	void Start ()
@@ -28,8 +28,8 @@ public class healthPowerup : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            PHP = other.gameObject.GetComponent<playerHealth>();
-            PHP.returnHealth(health);
+            playerMan = other.gameObject.GetComponent<PlayerMan>();
+            playerMan.ReturnHealth(health);
             Destroy(gameObject);
         }
     }

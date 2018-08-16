@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(AudioSource))]
-public class playerAudio : MonoBehaviour {
+public class GameSFX : MonoBehaviour {
 
+    [Header("Game SFX")]
     [SerializeField]
     AudioClip death;
     [SerializeField]
     AudioClip jump;
 
+    [Header("Audio Source")]
     AudioSource sounds;
 
     public IEnumerator JumpAudio()
     {
-        //Debug.Log("Called JumpAudio from Player Controller");
         sounds = GetComponent<AudioSource>();
         yield return new WaitForSeconds(0);
         sounds.clip = jump;
@@ -23,7 +23,6 @@ public class playerAudio : MonoBehaviour {
 
     public IEnumerator DeathAudio()
     {
-        //Debug.Log("Called DeathAudio from PlayerHealth");
         sounds = GetComponent<AudioSource>();
         yield return new WaitForSeconds(0.5f);
         sounds.clip = death;

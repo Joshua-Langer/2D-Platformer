@@ -24,7 +24,7 @@ using UnityEngine.UI;
     public void StartGame()
     {
         StartGamePress = true;
-        SceneManager.LoadScene(1); //temp, will eventually load a scene that generates the level map. Currently loads the test level.
+        SceneManager.LoadScene(2); //temp, will eventually load a scene that generates the level map. Currently loads the test level.
         //Debug.Log("Loading temp scene");
     }
 

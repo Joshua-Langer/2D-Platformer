@@ -5,7 +5,7 @@ using UnityEngine;
 public class ExitLevel : MonoBehaviour {
 
     //private void
-    playerHealth PH;
+    PlayerMan playerMan;
    // GameManager GM;
 
 
@@ -26,8 +26,8 @@ public class ExitLevel : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            PH = other.gameObject.GetComponent<playerHealth>();
-            PH.Exit();
+            playerMan = other.gameObject.GetComponent<PlayerMan>();
+            playerMan.Exit();
         }
     }
 

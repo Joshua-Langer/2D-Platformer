@@ -11,7 +11,7 @@ public class enemyDamage : MonoBehaviour {
 
     //private vars
     float nextDamage;
-    playerHealth PlayerHealth;
+    PlayerMan playerMan;
     
     
     // Use this for initialization
@@ -30,8 +30,8 @@ public class enemyDamage : MonoBehaviour {
     {
         if(other.tag == "Player" && nextDamage<Time.time)
         {
-            PlayerHealth = other.gameObject.GetComponent<playerHealth>();
-            PlayerHealth.takeDamage(damage);
+            playerMan = other.gameObject.GetComponent<PlayerMan>();
+            playerMan.TakeDamage(damage);
             nextDamage = Time.time + damageRate;
             KnockBack(other.transform);
         }

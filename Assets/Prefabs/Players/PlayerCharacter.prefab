@@ -53,12 +53,9 @@ GameObject:
   - component: {fileID: 50284412105624260}
   - component: {fileID: 61772416708381372}
   - component: {fileID: 58006313867102358}
-  - component: {fileID: 114975820816981302}
-  - component: {fileID: 114233879261721926}
-  - component: {fileID: 82743442947715768}
-  - component: {fileID: 114473200704950544}
   - component: {fileID: 95207740240551542}
-  - component: {fileID: 114290990225360928}
+  - component: {fileID: 114999669464123584}
+  - component: {fileID: 114896013614357802}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Player
@@ -86,7 +83,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1978213190554692}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.3942747, y: 2.5058112, z: 0}
+  m_LocalPosition: {x: -9.97044, y: 1.71, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 4903946840969252}
@@ -167,101 +164,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2392282, y: 2.2187755}
   m_EdgeRadius: 0
---- !u!82 &82743442947715768
-AudioSource:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1978213190554692}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 1
-  BypassListenerEffects: 1
-  BypassReverbZones: 1
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!95 &95207740240551542
 Animator:
   serializedVersion: 3
@@ -280,7 +182,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114233879261721926
+--- !u!114 &114896013614357802
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -288,59 +190,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 1978213190554692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a57093bf78060d84391535e5adcdbb2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerMaxHealth: 50
-  currentHealth: 0
---- !u!114 &114290990225360928
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1978213190554692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7629d92d9e0a16499d5d67c491f427d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerDead: 0
---- !u!114 &114473200704950544
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1978213190554692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ce4ea910a77f594bba54150feb4f50d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  death: {fileID: 8300000, guid: 4668d9fcf8d264f3693f23878a14042b, type: 3}
-  jump: {fileID: 8300000, guid: c36fa08ef01a24023aed81ce8c980720, type: 3}
---- !u!114 &114975820816981302
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1978213190554692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1e7d43935e13da43af8fc3d690b1192, type: 3}
+  m_Script: {fileID: 11500000, guid: d6b4c5de9897be54d9a5f1e113b2fc3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 5
-  onGroundRadius: 0.2
+  jumpHeight: 85
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
   groundCheck: {fileID: 4903946840969252}
-  jumpHeight: 85
   origin: {fileID: 4526887971318856}
   fireBall: {fileID: 1647293404798680, guid: ff4c550a0b89afa48980b19ebbfac6a2, type: 2}
   iceShard: {fileID: 1647293404798680, guid: d6497dd0820e9c148b056825f4e4979c, type: 2}
   arcaneShot: {fileID: 1647293404798680, guid: 09a74d109e708b440bd7de5060751c1a, type: 2}
   fireRate: 0.33
+  onGroundRadius: 0.2
+--- !u!114 &114999669464123584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1978213190554692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33025a9ef7e4d745be9c8414f93a1ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerDead: 0
+  playerMaxHealth: 50
+  currentHealth: 0
+  playerLives: 3
 --- !u!212 &212777126683724504
 SpriteRenderer:
   m_ObjectHideFlags: 1

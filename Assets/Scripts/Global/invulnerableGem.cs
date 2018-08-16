@@ -9,15 +9,15 @@ public class invulnerableGem : MonoBehaviour {
     public float time;
 
     //private vars
-    playerHealth PHP;
+    PlayerMan playerMan;
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Player")
         {
-            PHP = other.gameObject.GetComponent<playerHealth>();
-            PHP.Invulnerable(time);
-            PHP.returnHealth(health);
+            playerMan = other.gameObject.GetComponent<PlayerMan>();
+            playerMan.Invulnerable(time);
+            playerMan.ReturnHealth(health);
             Destroy(gameObject);
         }
     }

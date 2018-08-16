@@ -2,75 +2,86 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
-{
-    //Example   if(Input.GetKey(GameManager.GM.forward))
+public class playerController : MonoBehaviour {
 
-    //public vars
+    //movement vars
     public float maxSpeed;
-    public float jumpHeight;
+
+    //jumping vars
+    bool isGrounded = false;
+    [SerializeField]
+    float onGroundRadius = 0.2f;
     public LayerMask groundLayer;
     public Transform groundCheck;
-    public Transform origin;
-    public GameObject fireBall;
-    public GameObject iceShard;
-    public GameObject arcaneShot;
-
-    //private serialized vars
-    [SerializeField]
-    float fireRate = .25f;
-    [SerializeField]
-    float onGroundRadius = .2f;
+    public float jumpHeight;
 
     //private vars
     Rigidbody2D rb;
     Animator anim;
-    projectileDamage pd;
+    bool facingRight;
+    projectileDamage PD;
+    playerAudio playerSounds;
+
+    //attack vars
+    public Transform origin;
+    public GameObject fireBall;
+    public GameObject iceShard;
+    public GameObject arcaneShot;
+    [SerializeField]
+    float fireRate = .25f;
     float nextFire = 0f;
     bool isAttack = false;
     bool fireActive;
     bool iceActive;
     bool arcaneActive;
-    bool facingRight;
-    bool isGrounded;
 
-    void Awake()
+	// Use this for initialization
+	void Start ()
     {
-        GameSFX sfx = Object.FindObjectOfType<GameSFX>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         facingRight = true;
+        playerSounds = GetComponent<playerAudio>();
         fireActive = false;
         iceActive = false;
         arcaneActive = true;
-    }
-
+	}
+	
+	// Always called a specific time
     void Update()
     {
         SetAttackType();
 
-        //player jump
-        if (isGrounded && Input.GetKey(Grid.gameManagerProper.jump))
+        if (isGrounded && Input.GetAxis("Jump")>0)
         {
             isGrounded = false;
             anim.SetBool("isGrounded", isGrounded);
             rb.AddForce(new Vector2(0, jumpHeight));
-            Grid.gameSFX.StartCoroutine("JumpAudio");
+            playerSounds.StartCoroutine("JumpAudio");
         }
-        //player attack
-        if(Input.GetKey(Grid.gameManagerProper.attack))
+
+        //player shoot
+        if(Input.GetAxisRaw("Fire1") == 1)
         {
             isAttack = true;
             if (arcaneActive)
+            {
                 StartCoroutine("ArcaneAttack");
+            }
             else if (iceActive)
+            {
                 StartCoroutine("IceAttack");
+            }
             else if (fireActive)
+            {
                 StartCoroutine("FireAttack");
+            }
         }
+        //Debug.Log(transform.position.x);
     }
 
-    void FixedUpdate()
+
+	void FixedUpdate ()
     {
         //check if we are grounded, if not falling
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, onGroundRadius, groundLayer);
@@ -85,15 +96,15 @@ public class PlayerController : MonoBehaviour
 
         rb.velocity = new Vector2(move * maxSpeed, rb.velocity.y);
 
-        if (move > 0 && !facingRight)
+        if (move >0 && !facingRight)
         {
             Flip();
         }
-        else if (move < 0 && facingRight)
+        else if (move<0 && facingRight)
         {
             Flip();
         }
-    }
+	}
 
     void Flip()
     {
@@ -107,21 +118,21 @@ public class PlayerController : MonoBehaviour
 
     void SetAttackType()
     {
-        if (Input.GetKey(Grid.gameManagerProper.setArcane))
+        if(Input.GetKey(KeyCode.Alpha1))
         {
             arcaneActive = true;
             fireActive = false;
             iceActive = false;
             Debug.Log("Arcane Shot Active");
         }
-        else if (Input.GetKey(Grid.gameManagerProper.setIce))
+        else if(Input.GetKey(KeyCode.Alpha2))
         {
             arcaneActive = false;
             fireActive = false;
             iceActive = true;
             Debug.Log("Ice Shard Active");
         }
-        else if (Input.GetKey(Grid.gameManagerProper.setFire))
+        else if(Input.GetKey(KeyCode.Alpha3))
         {
             arcaneActive = false;
             fireActive = true;
@@ -139,7 +150,7 @@ public class PlayerController : MonoBehaviour
             yield return new WaitForSeconds(.1f);
             anim.SetBool("isAttacking", isAttack);
 
-            if (facingRight)
+            if(facingRight)
             {
                 yield return new WaitForSeconds(.15f);
                 Instantiate(arcaneShot, origin.position, Quaternion.Euler(new Vector3(0, 0, 0)));

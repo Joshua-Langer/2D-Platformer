@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+//Depreciated
 public class GameManager : MonoBehaviour
 {
     //Used to control all game conditions, win/lose etc.
