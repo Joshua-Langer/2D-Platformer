@@ -1,4 +1,4 @@
-/*Auto-Generated File from VersionEditor 2018.08.12 20:26:44 */
+/*Auto-Generated File from VersionEditor 2018.08.15 22:49:43 */
 
 namespace Assets.Scripts.VersionEditor {
 	public static class VersionInformation {
@@ -7,8 +7,8 @@ namespace Assets.Scripts.VersionEditor {
 		}
 		public const int Major = 0;
 		public const int Minor = 3;
-		public const int Revision = 0;
-		public const string Build = @"0";
+		public const int Revision = 2;
+		public const string Build = @"885";
 
 		public const string Title = "Wizard Saves All";
 		public const string Company = "SpectralFlameGames";

@@ -27,7 +27,10 @@ public class GarbageRemoval : MonoBehaviour {
         {
             playerMan = other.GetComponent<PlayerMan>();
             playerMan.ZeroHealth();
-            playerMan.KillPlayer();
+            if (Grid.gameManagerProper.playerLives == 0)
+            {
+                playerMan.KillPlayer();
+            }
         }
         else
             Destroy(other.gameObject);

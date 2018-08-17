@@ -8,8 +8,7 @@ public class PlayerMan : MonoBehaviour {
     public bool playerDead;
     public float playerMaxHealth;
     public float currentHealth;
-    //TODO: Implement Lives
-    public int playerLives; //NYI
+    
 
     //private vars
     bool isInvulnerable;
@@ -38,10 +37,18 @@ public class PlayerMan : MonoBehaviour {
             currentHealth -= damage;
             Debug.Log(currentHealth);
 
-
-            if (currentHealth <= 0)
+            if (currentHealth <= 0 && Grid.gameManagerProper.playerLives > 0)
             {
                 Grid.gameSFX.StartCoroutine("DeathAudio");
+                ZeroHealth();
+                Grid.gameManagerProper.LoseLife();
+                Debug.Log(Grid.gameManagerProper.playerLives);
+            }
+
+            else if (currentHealth <= 0 && Grid.gameManagerProper.playerLives <= 0)
+            {
+                Grid.gameSFX.StartCoroutine("DeathAudio");
+                ZeroHealth();
                 playerDead = true;
                 KillPlayer();
                 Grid.gameManagerProper.LoseGame();
@@ -86,10 +93,19 @@ public class PlayerMan : MonoBehaviour {
     //Clear the health to 0 if falls through Garbage Removal
     public void ZeroHealth()
     {
-        currentHealth = 0;
-        Grid.gameManagerProper.LoseGame();
-        KillPlayer();
-        Debug.Log(currentHealth);
+        if(Grid.gameManagerProper.playerLives > 0 )
+        {
+            currentHealth = 0;
+            Grid.gameManagerProper.playerLives--;
+            Grid.gameManagerProper.LoseLife();
+            //Debug.Log(playerLives);
+        }
+        else if (Grid.gameManagerProper.playerLives == 0)
+        {
+            currentHealth = 0;
+            Grid.gameManagerProper.LoseGame();
+            //Debug.Log(currentHealth);
+        }
     }
 
     //Attached Call to GM

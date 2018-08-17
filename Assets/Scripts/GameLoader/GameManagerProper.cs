@@ -8,13 +8,14 @@ public class GameManagerProper : MonoBehaviour {
     //public vars
     public int highestLevel = 0;
     public int levelCompleted = 0;
+    public int playerLives;
 
     //private vars
-    Scene activeScene;
+    int activeScene;
     float restartTimer;
     int previousScene;
-    bool sceneChange;
     PlayerHUD hud;
+    
 
     //Custom Input Map
     public KeyCode jump { get; set; }
@@ -30,7 +31,7 @@ public class GameManagerProper : MonoBehaviour {
     // Use this for initialization
 	void Awake ()
     {
-        sceneChange = false;
+        playerLives = 3;
         Time.timeScale = 1;
         restartTimer = Time.time + 5.5f;
         hud = Object.FindObjectOfType<PlayerHUD>();
@@ -106,5 +107,19 @@ public class GameManagerProper : MonoBehaviour {
     public void Load()
     {
         PlayerPrefs.GetInt("highestLevel");
+    }
+
+    public void LoseLife()
+    {
+        //Hud reflect change
+        hud.Lives();
+        //Restart the level
+        ResetLevel();
+    }
+
+    void ResetLevel()
+    {
+        activeScene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(activeScene);
     }
 }
