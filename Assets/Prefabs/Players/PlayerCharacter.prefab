@@ -219,7 +219,6 @@ MonoBehaviour:
   playerDead: 0
   playerMaxHealth: 50
   currentHealth: 0
-  playerLives: 3
 --- !u!212 &212777126683724504
 SpriteRenderer:
   m_ObjectHideFlags: 1

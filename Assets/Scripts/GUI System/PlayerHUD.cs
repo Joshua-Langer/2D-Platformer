@@ -8,11 +8,14 @@ public class PlayerHUD : MonoBehaviour
     //public vars
     public int waitingTime;
     public Slider playerHealth;
+    [HideInInspector]
     public int playerLives;
 
     //private serialized vars
     [SerializeField]
     Text gameOverText;
+    [SerializeField]
+    Text playerLivesText;
 
     //Private Vars
     PlayerMan player;
@@ -21,6 +24,7 @@ public class PlayerHUD : MonoBehaviour
     {
         GameManagerProper game = Object.FindObjectOfType<GameManagerProper>();
         player = Object.FindObjectOfType<PlayerMan>();
+        Lives();
     }
 
     public IEnumerator GameOverScreen()
@@ -34,6 +38,13 @@ public class PlayerHUD : MonoBehaviour
     public void Lives()
     {
         playerLives = Grid.gameManagerProper.playerLives;
+        playerLivesText.text = playerLives.ToString();
         Debug.Log(playerLives);
+    }
+
+    //Still bugged will decrease value on ZeroHealth Call.
+    public void Health()
+    {
+        playerHealth.value = player.currentHealth;
     }
 }

@@ -75,6 +75,7 @@ public class GameManagerProper : MonoBehaviour {
     {
         yield return new WaitForSeconds(waitTime);
         SceneManager.LoadScene(1);
+        playerLives = 3;
     }
 
     public void LoseGame()
@@ -82,7 +83,7 @@ public class GameManagerProper : MonoBehaviour {
         SubmitHighLevel(levelCompleted);
         Debug.Log("Game Over");
         hud.StartCoroutine("GameOverScreen");
-        StartCoroutine("Restart", restartTimer);
+        StartCoroutine("Restart", restartTimer);        
     }
 
     void SubmitHighLevel(int level)

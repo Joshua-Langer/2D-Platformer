@@ -12,15 +12,13 @@ public class PlayerMan : MonoBehaviour {
 
     //private vars
     bool isInvulnerable;
-
+    PlayerHUD hud;
     
-
-
     void Awake()
     {
         GameManagerProper game = Object.FindObjectOfType<GameManagerProper>();
         GameSFX sfx = Object.FindObjectOfType<GameSFX>();
-        //UIManager here?
+        hud = Object.FindObjectOfType<PlayerHUD>();
 
         currentHealth = playerMaxHealth;
         isInvulnerable = false;
@@ -35,6 +33,7 @@ public class PlayerMan : MonoBehaviour {
                 return;
 
             currentHealth -= damage;
+            hud.Health();
             Debug.Log(currentHealth);
 
             if (currentHealth <= 0 && Grid.gameManagerProper.playerLives > 0)
@@ -61,6 +60,7 @@ public class PlayerMan : MonoBehaviour {
         if (regen <= 0)
             return;
         currentHealth += regen;
+        hud.Health();
         Debug.Log(currentHealth);
 
 
@@ -96,6 +96,8 @@ public class PlayerMan : MonoBehaviour {
         if(Grid.gameManagerProper.playerLives > 0 )
         {
             currentHealth = 0;
+            hud.Health();
+            Grid.gameSFX.StartCoroutine("DeathAudio");
             Grid.gameManagerProper.playerLives--;
             Grid.gameManagerProper.LoseLife();
             //Debug.Log(playerLives);
@@ -103,6 +105,8 @@ public class PlayerMan : MonoBehaviour {
         else if (Grid.gameManagerProper.playerLives == 0)
         {
             currentHealth = 0;
+            hud.Health();
+            Grid.gameSFX.StartCoroutine("DeathAudio");
             Grid.gameManagerProper.LoseGame();
             //Debug.Log(currentHealth);
         }
