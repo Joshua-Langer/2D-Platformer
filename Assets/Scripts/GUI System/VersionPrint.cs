@@ -18,7 +18,7 @@ namespace Assets.Scripts.VersionEditor
             int w = Screen.width, h = Screen.height;
 
             GUIStyle style = new GUIStyle();
-            Rect rect = new Rect(0, 700, w, h * 2 / 100);
+            Rect rect = new Rect(0, 675, w, h * 2 / 100);
             style.alignment = TextAnchor.LowerLeft;
             style.fontSize = h * 2 / 100;
             style.normal.textColor = new Color(0.0f, 0.0f, 0.5f, 1.0f);
