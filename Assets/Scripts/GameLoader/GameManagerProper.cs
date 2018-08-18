@@ -3,21 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System;
 
 public class GameManagerProper : MonoBehaviour {
 
     //public vars
-    public int highestLevel = 0;
-    public int levelCompleted = 0;
+    public float highestTime;
+    public float lastTime;
     public int playerLives;
+    TimeSpan timeSaved;
 
     //private vars
     int activeScene;
     int previousScene;
     float restartTimer;
     float playerHealth;
+    string playerName;
     PlayerHUD hud;
     PlayerMan player;
+    StopWatchManager stopWatch;
+    TimeSaveController timeSubmit;
 
     //Custom Input Map
     public KeyCode jump { get; set; }
@@ -36,9 +41,13 @@ public class GameManagerProper : MonoBehaviour {
         playerLives = 3;
         Time.timeScale = 1;
         restartTimer = Time.time + 5.5f;
-        hud = Object.FindObjectOfType<PlayerHUD>();
-        player = Object.FindObjectOfType<PlayerMan>();
-        Debug.Log("Game Manager Loaded");
+        hud = GameObject.FindObjectOfType<PlayerHUD>();
+        player = GameObject.FindObjectOfType<PlayerMan>();
+        stopWatch = GameObject.FindObjectOfType<StopWatchManager>();
+        timeSubmit = GameObject.FindObjectOfType<TimeSaveController>();
+        if (playerName == null)
+            playerName = "tester";
+        //Debug.Log("Game Manager Loaded");
 
         //InputMap
         jump = (KeyCode)System.Enum.Parse(typeof(KeyCode), PlayerPrefs.GetString("jumpKey", "Space"));
@@ -54,27 +63,36 @@ public class GameManagerProper : MonoBehaviour {
     {
         if (hud == null)
         {
-            hud = Object.FindObjectOfType<PlayerHUD>();
+            hud = GameObject.FindObjectOfType<PlayerHUD>();
             Debug.Log(hud);
         }
         if (player == null)
         {
-            player = Object.FindObjectOfType<PlayerMan>();
+            player = GameObject.FindObjectOfType<PlayerMan>();
         }
+        if(timeSubmit == null)
+        {
+            timeSubmit = GameObject.FindObjectOfType<TimeSaveController>();
+        }
+        timeSaved = stopWatch.time;
+        //Debug.Log(timeSaved);
     }
     void WinGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        Debug.Log(highestLevel);
-        if(SceneManager.GetActiveScene().buildIndex == 5)
+        if (SceneManager.GetActiveScene().buildIndex < 5)
         {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            StartCoroutine(timeSubmit.PostScores( playerName, timeSaved));
             SceneManager.LoadScene(1);
+            stopWatch.NotPlaying();
         }
     }
 
     public void NextLevel()
     {
-        levelCompleted++;
         WinGame();
     }
     
@@ -87,34 +105,36 @@ public class GameManagerProper : MonoBehaviour {
 
     public void LoseGame()
     {
-        SubmitHighLevel(levelCompleted);
-        Debug.Log("Game Over");
+        stopWatch.NotPlaying();
+        //Debug.Log("Game Over");
         hud.StartCoroutine("GameOverScreen");
         StartCoroutine("Restart", restartTimer);        
     }
 
-    void SubmitHighLevel(int level)
+    void SubmitHighLevel(float time)
     {
-        if(level > highestLevel)
+        if(time > highestTime)
         {
-            highestLevel = level;
+            highestTime = time;
             Save();
         }
     }
 
-    public int GetHighLevel()
+    public float GetHighLevel()
     {
-        return highestLevel;
+        return highestTime;
     }
 
     void Save()
     {
-        PlayerPrefs.SetInt("highestLevel", highestLevel);
+        PlayerPrefs.SetFloat("highestLevel", highestTime);
+        Debug.Log(highestTime);
     }
 
     public void Load()
     {
-        PlayerPrefs.GetInt("highestLevel");
+        PlayerPrefs.GetFloat("highestTime");
+        Debug.Log(PlayerPrefs.GetFloat("highestTime"));
     }
 
     public void LoseLife()

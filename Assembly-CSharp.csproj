@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\GameLoader\GameMusicProper.cs" />
      <Compile Include="Assets\Scripts\GameLoader\GameSFX.cs" />
      <Compile Include="Assets\Scripts\GameLoader\Grid.cs" />
+     <Compile Include="Assets\Scripts\GameLoader\TimeSaveController.cs" />
      <Compile Include="Assets\Scripts\Global\cameraFollow2D.cs" />
      <Compile Include="Assets\Scripts\Global\damagePowerup.cs" />
      <Compile Include="Assets\Scripts\Global\ExitLevel.cs" />
@@ -79,6 +80,7 @@
      <Compile Include="Assets\Scripts\Global\SaveLoad\DataController.cs" />
      <Compile Include="Assets\Scripts\Global\SaveLoad\GameData.cs" />
      <Compile Include="Assets\Scripts\Global\SaveLoad\LevelData.cs" />
+     <Compile Include="Assets\Scripts\Global\StopWatchManager.cs" />
      <Compile Include="Assets\Scripts\Global\UIManager.cs" />
      <Compile Include="Assets\Scripts\GUI System\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\GUI System\PlayerHUD.cs" />

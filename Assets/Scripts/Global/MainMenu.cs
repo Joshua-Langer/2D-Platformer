@@ -11,6 +11,9 @@ using UnityEngine.UI;
     [HideInInspector]
     public bool StartGamePress;
 
+    //private vars
+    StopWatchManager stopWatch;
+
         //Main Menu scene control system
 
         void Start()
@@ -20,11 +23,17 @@ using UnityEngine.UI;
         StartGamePress = false;
         }
 
+    void Awake()
+    {
+        stopWatch = Object.FindObjectOfType<StopWatchManager>();
+        stopWatch.ClearTime();
+    }
 
     public void StartGame()
     {
         StartGamePress = true;
         SceneManager.LoadScene(2); //temp, will eventually load a scene that generates the level map. Currently loads the test level.
+        stopWatch.Playing();
         //Debug.Log("Loading temp scene");
     }
 
@@ -49,7 +58,7 @@ using UnityEngine.UI;
 
         public void LoadGame()
     {
-        Debug.Log("Highest Level Completed: " + PlayerPrefs.GetInt("highestLevel"));
+        Debug.Log("Best Time Completed: " + PlayerPrefs.GetFloat("highestTime"));
     }
 }
 
