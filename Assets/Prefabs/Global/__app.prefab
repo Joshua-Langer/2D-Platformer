@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   death: {fileID: 8300000, guid: 4668d9fcf8d264f3693f23878a14042b, type: 3}
-  jump: {fileID: 8300000, guid: be2522789ff384a4996b649774bedeb6, type: 3}
+  jump: {fileID: 8300000, guid: c36fa08ef01a24023aed81ce8c980720, type: 3}
 --- !u!114 &114236753196854166
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -176,6 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highestLevel: 0
   levelCompleted: 0
+  playerLives: 0
 --- !u!114 &114357248911174728
 MonoBehaviour:
   m_ObjectHideFlags: 1

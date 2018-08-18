@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 212237801117874650}
   - component: {fileID: 58478819696600744}
   m_Layer: 10
-  m_Name: saw
+  m_Name: slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -171,13 +171,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1356781806254714}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4837838457747856}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4837838457747856
 Transform:
   m_ObjectHideFlags: 1
@@ -185,8 +185,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1198288926702414}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 144.95, y: 15.2, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 139.37, y: 15.62, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children:
   - {fileID: 4134837182910594}
   - {fileID: 224003676030648920}
@@ -205,9 +205,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0009999275, y: -0.0017312765}
+  m_Offset: {x: -0.0065460205, y: -0.4107627}
   serializedVersion: 2
-  m_Radius: 0.56840646
+  m_Radius: 0.3848609
 --- !u!58 &58478819696600744
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -419,8 +419,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpeed: 0.25
-  wallLeft: 139.1
-  wallRight: 145
+  wallLeft: 139.4
+  wallRight: 144
   enemyGraphic: {fileID: 1198288926702414}
 --- !u!114 &114885993175195690
 MonoBehaviour:
@@ -529,7 +529,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 20ff9834f92f3854f80b1901cf6e3880, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af05dbed86c3ef74dab027f31d108b3d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

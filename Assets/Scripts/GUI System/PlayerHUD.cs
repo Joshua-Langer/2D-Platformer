@@ -19,12 +19,19 @@ public class PlayerHUD : MonoBehaviour
 
     //Private Vars
     PlayerMan player;
+    float health;
 
     void Awake()
     {
         GameManagerProper game = Object.FindObjectOfType<GameManagerProper>();
         player = Object.FindObjectOfType<PlayerMan>();
         Lives();
+    }
+
+    void Update()
+    {
+        health = player.currentHealth;
+        playerHealth.value = health;
     }
 
     public IEnumerator GameOverScreen()
@@ -45,6 +52,10 @@ public class PlayerHUD : MonoBehaviour
     //Still bugged will decrease value on ZeroHealth Call.
     public void Health()
     {
-        playerHealth.value = player.currentHealth;
+        health = player.currentHealth;
+       // Debug.Log(health);
+        //Debug.Log("Called Health HUD Function");  //Function is being called according to this piece happening each damage tick
+        playerHealth.value = health;
+        Debug.Log(playerHealth.value);
     }
 }

@@ -34,14 +34,14 @@ public class PlayerMan : MonoBehaviour {
 
             currentHealth -= damage;
             hud.Health();
-            Debug.Log(currentHealth);
+            //Debug.Log(currentHealth);
 
             if (currentHealth <= 0 && Grid.gameManagerProper.playerLives > 0)
             {
                 Grid.gameSFX.StartCoroutine("DeathAudio");
                 ZeroHealth();
                 Grid.gameManagerProper.LoseLife();
-                Debug.Log(Grid.gameManagerProper.playerLives);
+                //Debug.Log(Grid.gameManagerProper.playerLives);
             }
 
             else if (currentHealth <= 0 && Grid.gameManagerProper.playerLives <= 0)
@@ -61,13 +61,13 @@ public class PlayerMan : MonoBehaviour {
             return;
         currentHealth += regen;
         hud.Health();
-        Debug.Log(currentHealth);
+        //Debug.Log(currentHealth);
 
 
         if (currentHealth >= playerMaxHealth)
         {
             currentHealth = playerMaxHealth;
-            Debug.Log(currentHealth);
+           // Debug.Log(currentHealth);
         }
 
     }

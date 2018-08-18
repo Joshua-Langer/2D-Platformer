@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\Global\GarbageRemoval.cs" />
      <Compile Include="Assets\Scripts\Global\healthPowerup.cs" />
      <Compile Include="Assets\Scripts\Global\invulnerableGem.cs" />
+     <Compile Include="Assets\Scripts\Global\KeyBindMenu.cs" />
      <Compile Include="Assets\Scripts\Global\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Global\RestartGame.cs" />
      <Compile Include="Assets\Scripts\Global\SaveLoad\DataController.cs" />

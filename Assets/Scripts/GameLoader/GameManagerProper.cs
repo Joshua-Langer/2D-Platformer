@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManagerProper : MonoBehaviour {
 
@@ -12,10 +13,11 @@ public class GameManagerProper : MonoBehaviour {
 
     //private vars
     int activeScene;
-    float restartTimer;
     int previousScene;
+    float restartTimer;
+    float playerHealth;
     PlayerHUD hud;
-    
+    PlayerMan player;
 
     //Custom Input Map
     public KeyCode jump { get; set; }
@@ -35,6 +37,7 @@ public class GameManagerProper : MonoBehaviour {
         Time.timeScale = 1;
         restartTimer = Time.time + 5.5f;
         hud = Object.FindObjectOfType<PlayerHUD>();
+        player = Object.FindObjectOfType<PlayerMan>();
         Debug.Log("Game Manager Loaded");
 
         //InputMap
@@ -53,6 +56,10 @@ public class GameManagerProper : MonoBehaviour {
         {
             hud = Object.FindObjectOfType<PlayerHUD>();
             Debug.Log(hud);
+        }
+        if (player == null)
+        {
+            player = Object.FindObjectOfType<PlayerMan>();
         }
     }
     void WinGame()
@@ -122,5 +129,17 @@ public class GameManagerProper : MonoBehaviour {
     {
         activeScene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(activeScene);
+    }
+
+    public void PlayerHealthLoss()
+    {
+        playerHealth = player.currentHealth;
+        hud.playerHealth.value = playerHealth;
+    }
+
+    public void PlayerHealthGain()
+    {
+        playerHealth = player.currentHealth;
+        hud.playerHealth.value = playerHealth;
     }
 }
